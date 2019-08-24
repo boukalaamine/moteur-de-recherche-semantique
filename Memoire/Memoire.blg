@@ -1,0 +1,52 @@
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: Memoire.aux
+The style file: plain.bst
+Database file #1: Memoire.bib
+Warning--to sort, need author or key in apache
+Warning--empty author in apache
+Warning--empty title in apache
+Warning--empty year in apache
+Warning--empty booktitle in inproceedings
+You've used 13 entries,
+            2118 wiz_defined-function locations,
+            567 strings with 5751 characters,
+and the built_in function-call counts, 3761 in all, are:
+= -- 373
+> -- 118
+< -- 3
++ -- 52
+- -- 36
+* -- 224
+:= -- 620
+add.period$ -- 37
+call.type$ -- 13
+change.case$ -- 56
+chr.to.int$ -- 0
+cite$ -- 18
+duplicate$ -- 168
+empty$ -- 320
+format.name$ -- 36
+if$ -- 808
+int.to.chr$ -- 0
+int.to.str$ -- 13
+missing$ -- 13
+newline$ -- 66
+num.names$ -- 24
+pop$ -- 57
+preamble$ -- 1
+purify$ -- 44
+quote$ -- 0
+skip$ -- 126
+stack$ -- 0
+substring$ -- 251
+swap$ -- 40
+text.length$ -- 3
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 52
+warning$ -- 5
+while$ -- 35
+width$ -- 15
+write$ -- 134
+(There were 5 warnings)

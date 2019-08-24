@@ -1,0 +1,76 @@
+\begin{thebibliography}{10}
+
+\bibitem{apache}
+{\em http://pdfbox.apache.org/}.
+
+\bibitem{apriori}
+Rakesh Agrawal and Ramakrishnan Srikant.
+\newblock Fastalgorithms for mining association rules in large databases.
+\newblock {\em In Proceedings of the 20th International Conference on Very
+  Large Data Bases (VLDB '94),}, 123:489--499, 1994.
+
+\bibitem{w3c}
+Berners-Lee.
+\newblock Conceptual graphs and the semantic web - reflections on web
+  architecture.
+\newblock {\em http://www.w3.org/DesignIssues/CG.html.}, 2001.
+
+\bibitem{nlp}
+P.~Cimiano.
+\newblock Ontology learning from text.
+\newblock {\em Springer US}, 2006.
+
+\bibitem{swoogle}
+L.~Ding.
+\newblock Swoogle: a search and metadata engine for the semantic web.
+\newblock {\em in Proceedings of the thirteenth ACM international conference on
+  Information and knowledge management}, pages 652--659, 2004.
+
+\bibitem{defOnto}
+Thomas~R. Gruber.
+\newblock A translation approach to portable ontology specifications, knowledge
+  acquisition.
+\newblock {\em Special issue: Current issues in knowledge modeling},
+  5:199--220, 2005.
+
+\bibitem{article}
+J~I.~Toledo-Alvarado, Adolfo Guzman-Arenas, and G~L.~Martínez-Luna.
+\newblock Automatic building of an ontology from a corpus of text documents
+  using data mining tools.
+\newblock {\em Journal of applied research and technology}, 10:398--404, 12
+  2012.
+
+\bibitem{kayser}
+D.~Kayser.
+\newblock La représentation des connaissances.
+\newblock {\em ISBN 2-86601-647-5, Hermès, Paris}, 1997.
+
+\bibitem{avenement}
+Luong.
+\newblock Gestion de l'évolution d'un web sémantique d'entreprise.
+\newblock {\em L'école de Paris}, pages 652--659, 2007.
+
+\bibitem{avantage}
+C.~Mangold.
+\newblock A survey and classification of semantic search approaches.
+\newblock {\em Knowledge acquisition}, 2:23--24, 2007.
+
+\bibitem{IA}
+A~Newell.
+\newblock The knowledge level.
+\newblock {\em American Association for Artificial Intelligence, Stanford
+  University}, pages 652--659, 1980.
+
+\bibitem{process1}
+Bernardo~Magnini Paul~Buitelaar, Philipp~Cimiano.
+\newblock Ontology learning from text: An overview, in ontology learning from
+  text: Methods, evaluation and applications.
+\newblock {\em Frontiers in Artificial Intelligence and Applications volume},
+  123:199--220, 6 1993.
+
+\bibitem{inproceedings}
+Andrei Vasilateanu, Nicolae Goga, Elena-Alice Tanase, and Iuliana Marin.
+\newblock Enterprise domain ontology learning from web-based corpus.
+\newblock 07 2015.
+
+\end{thebibliography}
