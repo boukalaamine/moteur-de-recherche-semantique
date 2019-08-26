@@ -2,28 +2,28 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Architecture du Web S\IeC {\'e}mantique\relax }}{10}{figure.caption.48}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Exemple de graphe RDF\relax }}{12}{figure.caption.66}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Exemple d'ontologie sous forme de graphe\relax }}{14}{figure.caption.76}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Architecture du moteur de recherche s\IeC {\'e}mantique propos\IeC {\'e}\relax }}{19}{figure.caption.110}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Processus de l'algorithme Apriori\relax }}{24}{figure.caption.146}
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Exemple de l'algorithme Apriori\relax }}{25}{figure.caption.147}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Architecture du Web S\IeC {\'e}mantique\relax }}{10}{figure.caption.49}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Exemple de graphe RDF\relax }}{12}{figure.caption.67}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Exemple d'ontologie sous forme de graphe\relax }}{14}{figure.caption.77}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Architecture du moteur de recherche s\IeC {\'e}mantique propos\IeC {\'e}\relax }}{19}{figure.caption.111}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Processus de l'algorithme Apriori\relax }}{24}{figure.caption.147}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Exemple de l'algorithme Apriori\relax }}{25}{figure.caption.148}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Ontologie Insurance en RDF/XML\relax }}{30}{figure.caption.169}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces G\IeC {\'e}n\IeC {\'e}ration automatique des Ontologies\relax }}{32}{figure.caption.179}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Marquage des entit\IeC {\'e}s grammaticales\relax }}{34}{figure.caption.190}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Marquage des entit\IeC {\'e}s grammaticales\relax }}{36}{figure.caption.206}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Ontologie Insurance en RDF/XML\relax }}{30}{figure.caption.171}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces G\IeC {\'e}n\IeC {\'e}ration automatique des Ontologies\relax }}{32}{figure.caption.180}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Marquage des entit\IeC {\'e}s grammaticales\relax }}{34}{figure.caption.191}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Marquage des entit\IeC {\'e}s grammaticales\relax }}{36}{figure.caption.207}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Suppression des chiffres\relax }}{47}{figure.caption.273}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Suppression de la ponctuation et des espaces multiples\relax }}{47}{figure.caption.276}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Suppression des stop words\relax }}{48}{figure.caption.282}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Illustration de stop words\relax }}{49}{figure.caption.284}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Application du stemming\relax }}{49}{figure.caption.288}
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Interface graphique Text2Onto\relax }}{50}{figure.caption.293}
-\contentsline {figure}{\numberline {5.7}{\ignorespaces Modification de l'ontologie \IeC {\`a} l'aide de Prot\IeC {\'e}g\IeC {\'e}\relax }}{52}{figure.caption.303}
-\contentsline {figure}{\numberline {5.8}{\ignorespaces Insertion d'une relation d'\IeC {\'e}quivalence entre \emph {Contract} et \emph {Policy}\relax }}{53}{figure.caption.305}
-\contentsline {figure}{\numberline {5.9}{\ignorespaces Relation \emph {gr:Offers} en OWL.\relax }}{53}{figure.caption.307}
-\contentsline {figure}{\numberline {5.10}{\ignorespaces Relation \emph {gr:Offered} en OWL.\relax }}{53}{figure.caption.308}
-\contentsline {figure}{\numberline {5.11}{\ignorespaces Ajout de la propri\IeC {\'e}t\IeC {\'e} \emph {InverseOf}.\relax }}{54}{figure.caption.309}
-\contentsline {figure}{\numberline {5.12}{\ignorespaces Moteur de recherche \emph {Insurance}\relax }}{54}{figure.caption.313}
-\contentsline {figure}{\numberline {5.13}{\ignorespaces R\IeC {\'e}sultats de la recherche s\IeC {\'e}mantique\relax }}{55}{figure.caption.316}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Suppression des chiffres\relax }}{47}{figure.caption.274}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Suppression de la ponctuation et des espaces multiples\relax }}{47}{figure.caption.277}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Suppression des stop words\relax }}{48}{figure.caption.283}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Illustration de stop words\relax }}{49}{figure.caption.285}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Application du stemming\relax }}{49}{figure.caption.289}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Interface graphique Text2Onto\relax }}{50}{figure.caption.294}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Modification de l'ontologie \IeC {\`a} l'aide de Prot\IeC {\'e}g\IeC {\'e}\relax }}{52}{figure.caption.305}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Insertion d'une relation d'\IeC {\'e}quivalence entre \emph {Contract} et \emph {Policy}\relax }}{53}{figure.caption.307}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Relation \emph {gr:Offers} en OWL.\relax }}{53}{figure.caption.309}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Relation \emph {gr:Offered} en OWL.\relax }}{53}{figure.caption.310}
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Ajout de la propri\IeC {\'e}t\IeC {\'e} \emph {InverseOf}.\relax }}{54}{figure.caption.311}
+\contentsline {figure}{\numberline {5.12}{\ignorespaces Moteur de recherche \emph {Insurance}\relax }}{54}{figure.caption.315}
+\contentsline {figure}{\numberline {5.13}{\ignorespaces R\IeC {\'e}sultats de la recherche s\IeC {\'e}mantique\relax }}{55}{figure.caption.318}

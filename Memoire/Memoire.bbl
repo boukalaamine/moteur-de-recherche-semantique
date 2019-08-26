@@ -3,11 +3,30 @@
 \bibitem{apache}
 {\em http://pdfbox.apache.org/}.
 
+\bibitem{swing}
+Swing library.
+\newblock \url{https://www.oracle.com/technetwork/java/index.html}.
+\newblock Accessed: 2019.
+
+\bibitem{sparql}
+Langage d'interrogation sparql pour rdf.
+\newblock {\em W3.org}, 7 2012.
+
 \bibitem{apriori}
 Rakesh Agrawal and Ramakrishnan Srikant.
 \newblock Fastalgorithms for mining association rules in large databases.
 \newblock {\em In Proceedings of the 20th International Conference on Very
   Large Data Bases (VLDB '94),}, 123:489--499, 1994.
+
+\bibitem{jena}
+ARQ.
+\newblock A sparql processor for jena.
+\newblock 2018.
+
+\bibitem{ws}
+Charlet~J. aublet Ph., Reynaud~C.
+\newblock Sur quelques aspects du web sémantique.
+\newblock {\em In WS-SHS-2003, Paris}, 05 2003.
 
 \bibitem{w3c}
 Berners-Lee.
@@ -15,16 +34,52 @@ Berners-Lee.
   architecture.
 \newblock {\em http://www.w3.org/DesignIssues/CG.html.}, 2001.
 
+\bibitem{ML}
+G.~Bisson, C.~Nedellec, and L.~Canamero.
+\newblock Designing clustering methods for ontology building - the mo’k
+  workbench.
+\newblock {\em In Proceedings of the ECAI Ontology Learning Workshop}, pages
+  13--19, 2000.
+
+\bibitem{lin}
+P.~Buitelaar, D.~Olejnik, and M.~Sintek.
+\newblock Ontolt: A protégé plug-in for ontology extraction from text.
+\newblock {\em In Proceedings of the International Semantic Web Conference
+  (ISWC)}, 2003.
+
+\bibitem{charlet}
+J.~Charlet.
+\newblock L’ingénierie des connaissances, développement, résultats et
+  perspectives pour la gestion des connaissances médicales.
+\newblock {\em Mémoire d’Habilitation à Diriger les Recherches -
+  Université Pierre et Marie Curie, Paris,}, pages 199--220, 2002.
+
 \bibitem{nlp}
 P.~Cimiano.
 \newblock Ontology learning from text.
 \newblock {\em Springer US}, 2006.
+
+\bibitem{archi3}
+Philipp Cimiano and Johanna Volker.
+\newblock Text2onto - a framework for ontology learning and data-driven change
+  discovery.
+\newblock {\em Lecture Notes in Computer Science}, 3513, 01 2005.
 
 \bibitem{swoogle}
 L.~Ding.
 \newblock Swoogle: a search and metadata engine for the semantic web.
 \newblock {\em in Proceedings of the thirteenth ACM international conference on
   Information and knowledge management}, pages 652--659, 2004.
+
+\bibitem{protege}
+Dragan Gašević, Dragan Djurić, and Vladan Devedžić.
+\newblock Model driven engineering and ontology development (2nd ed.).
+\newblock {\em Springer ISBN 978-3-642-00282-3.}, page 194, 2009.
+
+\bibitem{pom}
+T.~Gruber.
+\newblock A translation approach to portable ontology specifications.
+\newblock {\em Knowledge Acquisition}, 5:199--220, 1993.
 
 \bibitem{defOnto}
 Thomas~R. Gruber.
@@ -33,6 +88,18 @@ Thomas~R. Gruber.
 \newblock {\em Special issue: Current issues in knowledge modeling},
   5:199--220, 2005.
 
+\bibitem{insurance}
+Martin Hepp.
+\newblock Goodrelations: An ontology for describing products and services
+  offers on the web.
+\newblock {\em Springer LNCS}, 5268:332--347, 2008.
+
+\bibitem{stop}
+Dagan I., Pereira F., and L.~Lee.
+\newblock Similarity-based estimation of word cooccurence probabilities.
+\newblock {\em Proc. 32nd Annual Meeting of the Association for Computational
+  Linguistics ACL 94}, 1:272--278, 1994.
+
 \bibitem{article}
 J~I.~Toledo-Alvarado, Adolfo Guzman-Arenas, and G~L.~Martínez-Luna.
 \newblock Automatic building of an ontology from a corpus of text documents
@@ -40,20 +107,55 @@ J~I.~Toledo-Alvarado, Adolfo Guzman-Arenas, and G~L.~Martínez-Luna.
 \newblock {\em Journal of applied research and technology}, 10:398--404, 12
   2012.
 
+\bibitem{sager}
+Sager J.C.
+\newblock A practical course in terminology processing.
+\newblock {\em John Benjamins Publishing Company}, 1990.
+
+\bibitem{regex}
+Justeson and S.M. J.S.and~Katz.
+\newblock Technical terminology: some linguistic properties and an algorithm
+  for identification in text.
+\newblock {\em Natural Language Engineering}, 1:9--27, 1995.
+
+\bibitem{cvalue}
+Frantzi Katerina, Ananiadou Sophia, and Mima Hideki.
+\newblock Automatic recognition of multi-word terms: The c-value/ nc-value
+  method.
+\newblock volume~3, pages 115--130, 08 2000.
+
 \bibitem{kayser}
 D.~Kayser.
 \newblock La représentation des connaissances.
 \newblock {\em ISBN 2-86601-647-5, Hermès, Paris}, 1997.
+
+\bibitem{java}
+James Gosling et David~Holmes Ken~Arnold.
+\newblock Le langage java.
+\newblock {\em ISBN 978-2-7117-8671-8}, 2001.
 
 \bibitem{avenement}
 Luong.
 \newblock Gestion de l'évolution d'un web sémantique d'entreprise.
 \newblock {\em L'école de Paris}, pages 652--659, 2007.
 
+\bibitem{python}
+Mark Lutz.
+\newblock Learning python : Powerful object-oriented programming.
+\newblock {\em How Does Python Stack Up to Langage}, page~7, 2009.
+
 \bibitem{avantage}
 C.~Mangold.
 \newblock A survey and classification of semantic search approaches.
 \newblock {\em Knowledge acquisition}, 2:23--24, 2007.
+
+\bibitem{web}
+P.~Martin.
+\newblock Exploitation de graphes conceptuels et de documents structurés et
+  hypertextes pour l'acquisition de connaissances et la recherche
+  d'informations.
+\newblock {\em Thèse de Doctorat en Informatique, Université de Nice - Sophia
+  Antipolis}, 1996.
 
 \bibitem{IA}
 A~Newell.
@@ -67,6 +169,23 @@ Bernardo~Magnini Paul~Buitelaar, Philipp~Cimiano.
   text: Methods, evaluation and applications.
 \newblock {\em Frontiers in Artificial Intelligence and Applications volume},
   123:199--220, 6 1993.
+
+\bibitem{pomme}
+S.~Staab, E.~Erdmann, and A.~Maedche.
+\newblock Engineering ontologies using semantic patterns.
+\newblock {\em In Proceedings of the IJCAI’01 Workshop on E-Business and
+  Intelligent Web}, 5, 2001.
+
+\bibitem{discovery}
+L.~Stojanovic.
+\newblock Methods and tools for ontology evolution.
+\newblock {\em PhD thesis, University of Karlsruhe}, 2004.
+
+\bibitem{timBerners}
+James~Hendler Tim~Berners and Ora Lassila.
+\newblock The semantic web: A new form of web content that is meaningful to
+  computers will unleash a revolution of new possibilities.
+\newblock {\em Scientific American}, 285, 2001.
 
 \bibitem{inproceedings}
 Andrei Vasilateanu, Nicolae Goga, Elena-Alice Tanase, and Iuliana Marin.

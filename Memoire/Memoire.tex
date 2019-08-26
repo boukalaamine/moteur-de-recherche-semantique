@@ -64,22 +64,21 @@ L'idée initiale derrière le web fut de pouvoir gérer une quantité volumineus
 
 \paragraph{}
 
-Après cela, arrivèrent les hyperliens (hyperlinks en anglais) qui consistent en un seul clic, à accéder 
+Après cela, arrivèrent les hyperliens (hyperlinks en anglais) qui consistent en un seul clic, à accéder
 au document souhaité, et c'est à partir de là que le mot "Web" a réellement pris tout son sens.
-
 
 
 \paragraph{}
 
 Cependant, les données présentes sur le Web ne peuvent êtres interprétées que par l'homme. En effet, les algorithmes ne peuvent pas comprendre les données afin de les étudier et de les manipuler.
 \paragraph{}
-A partir de ce constat, le W3C (World Wide Web Consortium) se tourna vers un web qui a pour objectif de fournir des informations pertinentes aux utilisateurs et donner un sens aux données présentes, le nommément Web Sémantique (Semantic web en anglais).
+A partir de ce constat, le W3C\footnote{World Wide Web Consortium, l’organisme de normalisation du Web, visant au développement de technologies de mise à disposition des données structurées en vue de leur traitement par les machines sur le Web. On le désigne également par l’ensemble des technologies visant à faciliter l’exploitation des données structurées.} se tourna vers un web qui a pour objectif de fournir des informations pertinentes aux utilisateurs et donner un sens aux données présentes, le nommément Web Sémantique (Semantic web en anglais) \citep{web}.
 \paragraph{}
 Dans le cadre de mon alternance au sein d'Axa Assurance, il m'est souvent arrivé de devoir naviguer dans le réseau d'Axa pour me documenter et rechercher des informations bien précises.
 \paragraph{}
 
 Le réseau d'Axa a pour particularité d'être très riche en terme de documents présents.
-Cependant, ces derniers sont difficilement trouvables.
+Cependant, ces derniers sont difficilement trouvables.\\
 
 
 C'est ainsi que l'idée de concevoir et réaliser une application de recherche et de documentation basée sur le Web Sémantique m'est venue.
@@ -88,12 +87,8 @@ C'est ainsi que l'idée de concevoir et réaliser une application de recherche e
 \paragraph{}
 Dans le but de permettre une recherche ne se basant pas uniquement sur les mots clés, une recherche qui donnerait du sens aux données, j'ai choisi d'articuler mes travaux autour du Web Sémantique et des outils et moyens qu'il présente. 
 
-
+\paragraph{}
 J'ai choisi d'illustrer l'approche proposée à travers une application liée à la recherche dans le domaine des assurances tel que : la souscription, les clauses, les contrats et les tarifs nationaux.  
-
-
-
-
 
 \paragraph{}
 J'organise ainsi mon mémoire : 
@@ -715,14 +710,14 @@ Chacune des deux présente des avantages et des inconvénients selon le contexte
 Dans le chapitre suivant, nous proposons une approche personnelle de résolution de la problématique.
 
 
-\chapter{Cas d'étude du moteur de recherche sémantique des assurances}
+\chapter{Cas d'étude : Moteur de recherche sémantique des assurances}
 
 \section{Introduction}
 
 \paragraph{}
-Le domaine des assurances se voit attribuer de plus en plus d'importance ces dernières années et ce, en raison des différents dangers auxquels l'humain est exposé quotidiennement.
+Le domaine des assurances se voit attribuer de plus en plus de l'importance ces dernières années et ce, en raison des différents dangers auxquels l'humain est exposé quotidiennement.
 \paragraph{}
-A cet effet, nous avons choisi de nous intéresser aux moteurs de recherches sémantiques, rendant la recherche plus pertinente et précise.
+A cet effet, nous avons choisi de nous intéresser aux moteurs de recherches sémantiques dans ce domaine, afin de rendre la recherche plus pertinente et précise.
 \paragraph{}
 Toutefois, un tel moteur de recherche requiert l'utilisation d'une ontologie de domaine. Il s'agit de Insurance ontology dans notre cas. 
 \paragraph{}
@@ -735,27 +730,30 @@ Dans le but de rendre la recherche sémantique riche et précise, il est nécess
 Ainsi, nous avons choisi d'utiliser un corpus avec un nombre important de documents. Ces derniers ont tous été extraits de l'ACR8 (Réseau d'AXA France Transports) pour les raisons suivantes : 
 \paragraph{}
 Les documents présents dans l'ACR8 sont dépourvus de toute structure.
-En effet, s'agit de documents textuels simples, non balisés.\\
-Il s'agit généralement de clausiers, conditions générales, conditions particulières, guides de souscriptions. Tous liés au domaine des assurances.
+En effet, il s'agit de documents textuels simples et non balisés.
+\paragraph{}
+Ces documents sont généralement des clausiers, des conditions générales, des conditions particulières et des guides de souscriptions, tous liés au domaine des assurances.
 \paragraph{}
 Enfin, l'application que nous souhaitons mettre en place est destinée à AXA France. Ainsi, l'apprentissage des ontologies serait plus significatif en utilisant les données AXA.
 
 \section{Etude de l'ontologie pré-existante “Insurance”}
 \paragraph{}
-Insurance est une ontologie de domaine développée par le groupe de recherche “E-Business Web Science”. \\
+Insurance est une ontologie de domaine développée par le groupe de recherche “E-Business Web Science” \citep{insurance}. \\
 Cette ontologie permet de décrire des informations liées aux produits d'assurance que les clients trouvent sur le marché.\\
-Nous citons comme informations présentes dans cette ontologies : \\
+Nous citons comme informations présentes dans cette ontologie : \\
 
 \begin{itemize}
 
 \item \textbf{Object : }Permettant de décrire le produit d'assurance proposé.\\
 \item \textbf{Agent : }Représente la compagnie d'assurance mettant à disposition le produit décrit dans Object.\\
 \item \textbf{Offer : }Il s'agit de l'offre du produit proposé aux clients.\\
-Concepts et relations
+
+
+\subsection{Concepts et relations}
 
 
 \paragraph{}
-La figure \ref{exempleOnto} permet d’illustrer l’ontologie décrite ci-dessous en RDF/XML : 
+La figure \ref{exempleOnto} permet d’illustrer l’ontologie décrite ci-dessus en RDF/XML : 
 
 \begin{figure}[h!]
 \begin{center}
@@ -798,14 +796,13 @@ L'ontologie possède aussi un ensemble de relations que nous détaillons dans le
 Après avoir explicité les différents éléments constituant l'ontologie Insurance. 
 Nous remarquons que cette dernière répond essentiellement à la description des produits d'assurances. 
 \paragraph{}
-Il est important de noter qu'un grand nombre de Concepts et Relations est manquant dans cette ontologie par exemple : Les informations sur les clauses et tarifs nationaux.
-\paragraph{}
-C'est pour cette raison qu'il a été décidé de migrer vers une nouvelle ontologie.\\
+Il est important de noter qu'un grand nombre de Concepts et Relations est manquant dans cette ontologie par exemple : Les informations sur les clauses et tarifs nationaux.\\
+C'est pour cette raison que j'ai décidé de migrer vers une nouvelle ontologie.\\
 Cette nouvelle ontologie est générée automatiquement à partir de la bibliothèque de documents de la branche Transports d'Axa France, et ce dans le but de garantir une meilleure cohérence entre le contenu des documents et l'ontologie générée.
 
 \section{Solution appliquée pour la création automatique des ontologies}
 \paragraph{}
-Après avoir argumenté sur la nécessité de créer une ontologie propre au contexte auquel nous nous référons, nous présentons la solution d'automatisation basée sur l'architecture suivante : 
+Après avoir justifié la nécessité de créer une ontologie propre au contexte auquel nous nous référons, nous présentons la solution d'automatisation basée sur l'architecture suivante \citep{archi3} : 
 
 \begin{figure}[h!]
 \begin{center}
@@ -820,10 +817,10 @@ Après avoir argumenté sur la nécessité de créer une ontologie propre au con
 \paragraph{}
 Dans ce qui suit, nous détaillons chaque module de cette architecture.
 
-\subsection{Le modèle d'ontologie probabiliste}
+\subsection{Le modèle d'ontologie probabiliste (POM)}
 
 \paragraph{}
-Il s'agit d'une collection de primitives de modélisation instanciées indépendantes d'un langage de représentation d'ontologies.\\
+Il s'agit d'une collection de primitives de modélisation instanciées indépendantes d'un langage de représentation d'ontologies.\citep{pom} \\
 Les primitives sont généralement les suivantes : \\ 
 \begin{itemize}
 
@@ -841,9 +838,9 @@ Chaque primitive est ensuite représentée en langage ontologique.\\
 
 L'avantage d'utiliser un tel modèle réside dans le fait que chaque primitive générée automatiquement est accompagnée d'un indicateur de pertinence. \\
 Cet indicateur représente la probabilité que la primitive associée soit une instance de l'ontologie qui sera créée par la suite.\\
-On pourra de ce fait définir un seuil permettant de décider si la primitive est acceptée dans l'ontologie cible.
+On pourra de ce fait définir un seuil permettant de décider si la primitive est acceptée dans l'ontologie cible \citep{pomme}.
 \paragraph{}
-Un autre avantage en utilisant une telle solution concerne la mise à jour de l'ontologie lors de la modification ou l'ajout d'un document.\\En effet, un changement au niveau du corpus implique l'ajout de nouvelles primitives au niveau du POM et la mise à jour de l'indicateur de présence.
+Un autre avantage en utilisant une telle solution concerne la mise à jour de l'ontologie lors de la modification ou l'ajout d'un document.\\En effet, un changement au niveau du corpus implique l'ajout de nouvelles primitives au niveau du POM et la mise à jour de l'indicateur de présence\citep{pom2}.
 
 \subsection{Découverte du changement des données}
 \paragraph{}
@@ -852,7 +849,7 @@ Suite à ces modifications, il est nécessaire que l'ontologie générée automa
 \paragraph{}
 C'est au module \textbf{“Data-driven change discovery”} d'intervenir afin de palier à une telle problématique.\\
 Data-driven change discovery fournit les méthodes qui assurent l'adaptation de l'ontologie aux changements.\\
-Les avantages de ce modules sont les suivants : \\
+Les avantages de ce module sont les suivants \citep{discovery} \\
 
 \begin{enumerate}
 \item Utilisation d'un système de traçage, permettant de mettre en relief les modifications subies par l'ontologie.\\
@@ -861,7 +858,7 @@ Les avantages de ce modules sont les suivants : \\
 \paragraph{}
 L'utilisation d'un tel modèle requiert le traçage de toutes les modifications effectuées sur les documents, ainsi que sur les ontologies.
 \paragraph{}
-De manière formelle, il s'agit de représenter la mise à jour de la manière la plus explicite, à savoir, en mettant en relief l'état initial (avant la modification), la modification effectuée (Ajout, suppression ou correction), ainsi que l'état final, que nous désignons “la cible”.
+De manière formelle, il s'agit de représenter la mise à jour de la manière la plus explicite, à savoir, en mettant en relief l'état initial (avant la modification), la modification effectuée (Ajout, suppression ou correction), ainsi que l'état final, que nous désignons “la cible” \citep{discovery}.
 \paragraph{}
 Le même processus sera appliqué lors de la modification automatique ou semi-automatique de l'ontologie.
 \paragraph{}
@@ -891,7 +888,7 @@ Enfin, notons que le POM a également subi des changements.
 \paragraph{}
 Il existe plusieurs applications dans le Web sémantique permettant l'apprentissage automatique des ontologies à partir d'un texte brut.
 \paragraph{}
-Ces applications se basent essentiellement soit, sur des analyses linguistiques ou bien sur la Machine Learning.
+Ces applications se basent essentiellement soit, sur des analyses linguistiques\citep{lin} ou bien sur la Machine Learning \citep{ML}.
 Dans notre étude, nous avons choisi de combiner ces deux pratiques, et ce dans l'optique de saisir les avantages de chacune et offrir de meilleurs résultats.\citep{nlp}
 \paragraph{}
 Dans ce qui suit, nous abordons la problématique liée à l'extraction automatique des concepts désignés par plusieurs mots (renvoyant à une même entité).
@@ -908,7 +905,7 @@ La méthode C-value combine un aspect linguistique et statistique à la fois.
 La partie linguistique permet de baliser le texte en termes et d'effectuer un ensemble de filtrages. 
 \paragraph{}
 Quant à la partie statistique, elle assigne à chaque sous-chaîne du document une mesure statistique liée à la pertinence de la sous-chaîne de caractères.\\
-Cette mesure est appelée “C-value”
+Cette mesure est appelée “C-value” \cite{cvalue}.
 
 \subsubsection{1. La partie linguistique}
 \paragraph{}
@@ -926,9 +923,9 @@ Le module linguistique comprend les éléments suivants : \\
 Chaque mot du corpus donné en entrée est assigné à une entité grammaticale.\\
 Une entité grammaticale peut-être un nom, un adjectif, un verbe, une préposition un complément d'objet … .
 \paragraph{}
-Cette étape est un nécessaire pour accomplir la prochaine étape car le filtrage requiert l'information grammaticale des mots du corpus.
+Cette étape est nécessaire pour accomplir la prochaine étape car le filtrage requiert l'information grammaticale des mots du corpus.
 \paragraph{}
-Plusieurs algorithmes sont proposés dans la littérature. Dans notre étude, nous avons choisi d'utiliser le langage de programmation Python, mettant à disposition la bibliothèque nltk.\\
+Plusieurs algorithmes sont proposés dans la littérature\citep{sager}. Dans notre étude, nous avons choisi d'utiliser le langage de programmation Python, mettant à disposition la bibliothèque nltk.\\
 Pour chaque mot du corpus donné en entrée, une entité grammaticale est automatiquement renseignée. \\ \\
 Le code suivant permet d'effectuer un tel traitement : 
 \begin{verbatim}
@@ -989,9 +986,9 @@ $$(Nom)+ $$
 
 Ce filtre a comme particularité d'être très restreint.\\
 
-La liste des termes extraite possède un taux de précision très élevé. En revanche, le taux de rappel est quant à lui très faible. \\
+La liste des termes extraite possède un taux de précision très élevé. En revanche, le taux de rappel est quant à lui très faible \citep{regex}. \\ 
 
-D'autres filtres sont proposés dans la littérature, permettant d'obtenir des résultats différents, nous citons : \\
+D'autres filtres sont proposés dans la littérature \citep{regex}, permettant d'obtenir des résultats différents, nous citons : \\
 \begin{itemize}
 \item \textit{(Nom)+(Nom)} \\
 \item \textit{(Adj | Nom)+} \\
@@ -1005,27 +1002,26 @@ Le choix d'utilisation d'un filtre se fait en fonction de l'objectif de l'extrac
 \paragraph{}
 La stop-list est une liste de mots ne devant pas apparaître dans l'ensemble des mots à extraire.
 \paragraph{}
-Il s'agit de mots qui ne pouvant pas représenter des termes dans l'ontologie cible. \\
-Un exemple de mots figurant dans la stop-list : bien, nombreux, bon, juste …. 
+Il s'agit de mots qui ne peuvent pas représenter des termes dans l'ontologie cible \citep{stop}. \\
+Un exemple de mots figurant dans la stop-list : bien, nombreux, bon, juste ... . 
 
 
 \subsubsection{2. La partie statistique}
 \paragraph{}
 Après avoir effectué un filtrage linguistique des documents constituant le corpus,
-seuls les mots susceptibles d'être des termes seront pris en considération lors de l'étape statistique.
+seuls les mots susceptibles d'être des termes seront pris en considération lors de l'étape statistique\cite{cvalue}.
 \paragraph{}
 Comme décrit dans l'idée générale de l'approche adoptée, le paramètre C-value est calculé pour chaque mot rencontré.\\
 Ce paramètre permet de classer les mots présents en fonction de leur pertinence dans le corpus.\\
-C-value est calculé à l'aide des caractéristiques suivants : \\
-\begin{itemize}
+C-value est calculé à l'aide des caractéristiques suivantes : \\
+\begin{enumerate}
+\item La fréquence totale des occurrences de la chaîne candidate dans le corpus\\
+\item La fréquence de la chaîne candidate par rapport aux autres termes candidats\\
+\item Le nombre de termes candidats\\
+\item La longueur de la chaîne candidate (en nombre de mots)\\
 
-\item a. La fréquence totale des occurrences de la chaîne candidate dans le corpus\\
-\item b. La fréquence de la chaîne candidate par rapport aux autres termes candidats\\
-\item c. Le nombre de termes candidats\\
-\item d. La longueur de la chaîne candidate (en nombre de mots)\\
 
-
-\end{itemize}
+\end{enumerate}
 
 
 \subsubsection{a. La fréquence totale des occurrences de la chaîne candidate dans le corpus}
@@ -1038,13 +1034,13 @@ termhood(a) = f(a)
 $a$ : représente une chaîne candidate\\
 $f(a)$ : représente la fréquence de l'occurrence de a dans le corpus\\
 
-Cette mesure produit de très bons résultats étant donné que les termes ont tendance à apparaître de manière assez fréquente dans les documents.\\
+Cette mesure produit de très bons résultats (Voir implémentation), étant donné que les termes ont tendance à apparaître de manière assez fréquente dans les documents.\\
 Prenons à titre d'exemple, un ensemble de documents tirés du domaine des assurances, constitué de 800 000 mots.\\ Le mot “police” apparaît 2 084 fois, ce qui est significatif.
 \paragraph{}
 Bien entendu, il existe des termes significatifs quant à l'ontologie cible, mais qui n'apparaissent pas beaucoup.
 \paragraph{}
 Il existe aussi un autre problème lié aux mots composés tel que : responsabilité civile environnementale.\\
-En effet, lorsqu'on considère les mots responsabilité, civile et environnementale, séparés, ces derniers ne peuvent représenter une vraie entité dans le domaine des assurances.
+En effet, lorsque nous considérons les mots responsabilité, civile et environnementale, séparés, ces derniers ne peuvent représenter une vraie entité dans le domaine des assurances.
 \paragraph{}
 C'est à partir de cette réflexion que l'idée de considérer la chaîne candidate par rapport aux autres chaînes est apparue.
 
@@ -1060,9 +1056,9 @@ termhood(a) = f(a) - b  \sum_{b \in T_a} f(b)
 
 $a$ : représente une chaîne candidate\\
 $f(a)$ : représente la fréquence de l'occurrence de a dans le corpus\\
-$Ta$ : représente un ensemble de termes candidats contenant la chaîne $a$\\
+$Ta$   : représente un ensemble de termes candidats contenant la chaîne $a$\\
 $f(a)$ : représente la fréquence de l'occurrence de a dans le corpus\\
-$b$ : est un terme candidat\\
+$b$    : est un terme candidat\\
 $f(a)$ : représente la fréquence de l'occurrence du terme $b$ contenant $a$\\ 
 Le problème est encore une fois pas totalement résolu. 
 \paragraph{}
@@ -1186,6 +1182,7 @@ La chaîne la plus longue apparaît en haut de la liste et la plus courte tout e
 
 \section{Introduction}
 \paragraph{}
+
 Au cours du chapitre précédent, nous avons exposé les méthodes statistiques et linguistiques suivies lors de l'implémentation de notre solution.
 \paragraph{}
 Ce chapitre est consacré à la présentation du projet réalisé. Il est réparti en deux grandes parties.
@@ -1194,13 +1191,13 @@ La première partie met en relief l'ensemble des outils utilisés lors de l'impl
 \paragraph{}
 La deuxième quant à elle, expose la solution développée et les résultats obtenus en l'appliquant dans le domaine des assurances et plus particulièrement sur les documents d'AXA France.
 
-\section{Outil utilisés}
+\section{Outils utilisés}
 \paragraph{}
 Tout développement informatique, quelque soit sa difficulté, requiert l'utilisation d'environnements de développement, de langages de programmation et d'outils de gestion.
 \paragraph{}
 Pour le développement de notre application, nous avons choisi d'utiliser des outils open source et dont le code est mis à disposition des utilisateurs.
 \paragraph{}
-Ce qui donne la possibilité de modifier et améliorer les codes sans se soucier des problèmes liés à la redistribution.
+Ce qui donne la possibilité de modifier et d'améliorer les codes sans se soucier des problèmes liés à la redistribution.
 
 \subsection{Le langage Java}
 \paragraph{}
@@ -1209,7 +1206,7 @@ Java est un langage de programmation orienté-objet créé en 1995 par Sun Micro
 Java a comme particularité d'être un langage permettant de développer des applications portables, indépendantes du système d'exploitation. 
 \paragraph{}
 Java est considéré comme étant le langage le plus riche en terme de bibliothèques et documentation.\\
-Il permet de développer des applications desktop à l'aide de Java SE (Standard Edition) et des applications Web avec Java EE (Enterprise Edition).
+Il permet de développer des applications desktop à l'aide de Java SE (Standard Edition) et des applications Web avec Java EE (Enterprise Edition) \citep{java}.
 \paragraph{}
 C'est pour ces raisons que beaucoup de développeurs se tournent vers les API Java.\\
 En contrepartie, les applications Java connaissent une certaine lenteur au moment de l'exécution.
@@ -1219,9 +1216,9 @@ En contrepartie, les applications Java connaissent une certaine lenteur au momen
 Jena 2 est la librairie JAVA sous-jacente directe de l'outil SQUIN 3 développé par l'Apache Foundation Software et est maintenant sous Apache Software Licence. 
 \paragraph{}
 Jena est un ensemble de librairies et d'outils dédiés à la construction d'applications orientées Web sémantique. Parmi ces outils, nous trouvons notamment une API Java open source permettant de manipuler des documents
-RDF/RDFS OWL et SPARQL et de raisonner sur des modèles ontologiques à l'aide de moteurs d'inférences. 
+RDF/RDFS OWL et SPARQL et de raisonner sur des modèles ontologiques à l'aide de moteurs d'inférences \citep{jena}. 
 \paragraph{}
-Jena est très facile à manipuler. Cependant, elle n'est pas exemptée de problèmes comme le fait qu'elle n'accepte pas les ontologies de n'importe quel langue, par exemple : les accents ne sont pas pris en compte, en plus du fait que certaines fonctions ne renvoient pas les résultats escomptés.
+Jena est très facile à manipuler. Cependant, elle n'est pas exemptée de problèmes comme le fait qu'elle n'accepte pas les ontologies de n'importe quelle langue, par exemple : les accents ne sont pas pris en compte, en plus du fait que certaines fonctions ne renvoient pas les résultats escomptés.
 
 \subsection{L'outil de versionnage : Git}
 \paragraph{}
@@ -1234,26 +1231,26 @@ GitHub est un service web d'hébergement et de gestion de développement logicie
 \paragraph{}
 Comme indiqué précédemment, Java a comme inconvénient d'être relativement lent au moment de l'exécution.
 Ce point est assez contraignant, particulièrement lorsque les traitements se font sur des données volumineuses.
-Dans notre contexte, les données sont représentées par un corpus de documents contenant chacun minimum 5000 mots.
+Dans notre contexte, les données sont représentées par un corpus de documents contenant chacun au minimum 5000 mots.
 \paragraph{}
 Par conséquent, nous avons choisi de nous pencher vers un autre langage de programmation : Python.
 \paragraph{}
 Python est un langage de programmation placé sous licence libre. Il est conçu pour optimiser la productivité des programmeurs en offrant des outils de haut 
 niveau et une syntaxe simple à utiliser.
 \paragraph{}
-Il est particulièrement utilisé comme langage de script pour automatiser des taĉhes simples mais fastidieuses. Il possède de nombreuses bibliothèques optimisées destinées au calcul numérique.
+Il est particulièrement utilisé comme langage de script pour automatiser des tâches simples mais fastidieuses. Il possède de nombreuses bibliothèques optimisées destinées au calcul numérique\citep{python}.
 
 \subsection{L'éditeur d'ontologies Protégé}
 \paragraph{}
-Protégé est un éditeur d'ontologies Open source crée à l'université de Stanford et qui permet de créer, lire et de modifier des ontologies. Il nous permet d'effectuer toutes les opérations nécessaires sur les ontologies tels que la création de classes, de relations, d'attributs et d'individus, et dispose d'un raisonneur qui nous permet de vérifier la cohérence de l'ontologie et de ses individus. 
+Protégé est un éditeur d'ontologies Open source crée à l'université de Stanford et qui permet de créer, de lire et de modifier des ontologies. Il nous permet d'effectuer toutes les opérations nécessaires sur les ontologies telle que la création de classes, de relations, d'attributs et d'individus, et dispose d'un raisonneur qui nous permet de vérifier la cohérence de l'ontologie et de ses individus\citep{protege}. 
 \paragraph{}
-Il existe plusieurs éditeurs d'ontologies, mais notre choix s'est porté sur l'éditeur Protégé et ce,  pour sa capacité de travailler sur des ontologies de grandes dimensions, ainsi que sa popularité d'utilisation.
+Il existe plusieurs éditeurs d'ontologies, mais notre choix s'est porté sur l'éditeur Protégé et ce,  pour sa capacité de travailler sur des ontologies de grandes dimensions, ainsi que pour sa popularité d'utilisation.
 
 \subsection{L'environnement de développement Eclipse}
 \paragraph{}
 Eclipse est un environnement de développement Open source.\\
 C'est un environnement de production logicielle s'appuyant principalement sur le Java.\\
-Notre choix s'est porté sur cet IDE pour ses fonctionnalités destinées à faciliter la programmation des interfaces graphiques.
+Notre choix s'est porté sur cet IDE\footnote{IDE : Integrated Development Environment, Environnement de développement intégré : Ensemble d'outils qui permet d'augmenter la productivité des programmeurs qui développent des logiciels} pour ses fonctionnalités destinées à faciliter la programmation des interfaces graphiques.
 
 \subsection{Le langage de requêtes SPARQL}
 \paragraph{}
@@ -1262,11 +1259,7 @@ Après avoir généré l'ontologie automatiquement à partir d'un corpus de docu
 Dans notre étude, nous utilisons le langage de requête SPARQL lors de la recherche dans le moteur implémenté.
 \paragraph{}
 SPARQL est capable de rechercher des motifs de graphe (graph patterns) obligatoires et optionnels ainsi que leurs conjonctions et leurs disjonctions.
-Les résultats des interrogations peuvent être des ensembles de résultats ou des graphes.
-
-\subsection{La Gate 4.0}
-
-\subsection{WordNet}
+Les résultats des interrogations peuvent être des ensembles de résultats ou des graphes \citep{sparql}.
 
 
 
@@ -1283,7 +1276,7 @@ Les exemples illustrés dans ce qui suit, prennent tous en entrée le même fich
 
 Nous commençons dans un premier temps par retirer tous les chiffres présents dans les documents.\\
 En effet, les chiffres n'ont aucune pertinence, ni utilité quant à l'ontologie qui sera générée.\\
-Pour ce faire, nous avons utilisé le code suivant :
+Pour ce faire, nous avons développé le code suivant :
 
 \begin{verbatim}
 import re
@@ -1308,7 +1301,7 @@ L'exemple suivant permet d'illustrer le code fourni avec un exemple :
 
 \subsubsection{Retrait de la ponctuation et des espaces}
 \paragraph{}
-Dans le but de supprimer la ponctuation, ainsi que les espaces des documents donnés en entrée, nous avons utilisé la portion de code suivante : 
+Dans le but de supprimer la ponctuation, ainsi que les espaces des documents donnés en entrée, nous avons développé la portion de code suivante : 
 \begin{verbatim}
 import string
 
@@ -1335,7 +1328,7 @@ La capture d'écran suivante illustre le traitement effectué :
 Comme indiqué dans l'état de l'art, les textes non structurés sont formés de mots communs appelés Stop words. 
 Ces mots n'apportent aucun intérêt lors de l'application des algorithmes de text-mining. 
 \paragraph{}
-C'est pour cette raison que nous choisissons de les éliminer afin de réduire la taille des documents et se focaliser uniquement sur les mots ayant un intérêt sémantique.
+C'est pour cette raison que nous choisissons de les éliminer afin de réduire la taille des documents et de se focaliser uniquement sur les mots ayant un intérêt sémantique.
 \paragraph{}
 Le code suivant permet d'effectuer le traitement décrit précédemment :
 
@@ -1416,9 +1409,9 @@ Après avoir appliqué ces traitement préliminaires, le corpus de documents est
 
 \subsection{Outil de génération automatique des ontologies}
 \paragraph{}
-Dans le cadre de notre implémentation, nous nous sommes basés essentiellement sur une API développée en Java pré-existante. L'IHM présentée est développée en Swing.
+Dans le cadre de notre implémentation, nous nous sommes basés essentiellement sur une API développée en Java pré-existante. L'IHM\footnote{IHM : Inteface Homme Machine} présentée est développée en Swing.
 \paragraph{}
-Swing est une bibliothèque graphique pour le langage de programmation Java, faisant partie du package Java Foundation Classes (JFC), inclus dans J2SE. Swing constitue l'une des principales évolutions apportées par Java 2 par rapport aux versions antérieures.
+Swing est une bibliothèque graphique pour le langage de programmation Java, faisant partie du package Java Foundation Classes (JFC), inclus dans J2SE. Swing constitue l'une des principales évolutions apportées par Java 2 par rapport aux versions antérieures \citep{swing}.
 \paragraph{}
 L'interface graphique se présente comme illustré dans la capture d'écran suivante :
 
@@ -1436,11 +1429,11 @@ Cette interface utilisateur est principalement composée de 4 panels que nous d�
 \begin{enumerate}
 \item \textbf{Le panel A} (marqué par un cercle avec une bordure rouge dans la capture ci-dessus) est une vue Contrôleur dans laquelle nous pouvons spécifier les algorithmes à utiliser et comment combiner les résultats de ces algorithmes.
 
-\item \textbf{Le panel B} permet de gérer le corpus en créant de nouveaux dossiers, ajouter ou supprimer des documents quelque soit leur format (pdf, txt, word … )
+\item \textbf{Le panel B} permet de gérer le corpus en créant de nouveaux dossiers, ajouter ou supprimer des documents quelque soit leur format (pdf, txt, word … ).
 
 \item \textbf{Le panel C} donne un aperçu sur le résultat obtenu après avoir lancé l'étape d'apprentissage d'ontologie à partir des documents formant le corpus.
 
-\item \textbf{Le panel D} est consacré aux messages d'erreur et de débuggage 
+\item \textbf{Le panel D} est consacré aux messages d'erreur et de débogage.
 
 \end{enumerate}
 \paragraph{}
@@ -1457,7 +1450,7 @@ Parmi ces algorithmes, nous citons les 4 algorithmes suivants pour l'extraction 
 \end{itemize}
 
 \paragraph{}
-L'utilisateur a la possibilité d'utiliser un seul algorithme à la fois, ou de combiner plusieurs selon sa problématique.
+L'utilisateur a la possibilité d'utiliser un seul algorithme à la fois, ou de combiner plusieurs selon la problématique.
 \paragraph{}
 A la fin du processus de génération automatique, l'outil propose d'extraire le résultat obtenu sous plusieurs formats : KAON, RDFS or OWL format.
 \paragraph{}
@@ -1466,11 +1459,12 @@ Dans notre cas, nous choisissons d'extraire l'ontologie en OWL afin que nous pui
 
 \subsection{Utilisation du framework \emph{Protégé}}
 \paragraph{}
-L'ontologie telle que générée automatique requiert des modifications manuelles de la part d'un expert du domaine. Cette contribution se fait dans le but d'aboutir à un modèle ontologique conforme au corpus de documents. 
+L'ontologie telle que générée automatiquement requiert des modifications manuelles de la part d'un expert du domaine. Cette contribution se fait dans le but d'aboutir à un modèle ontologique conforme au corpus de documents. 
 \paragraph{}
-De ce fait, nous commençons par expliquer la démarche suivie lors de l'utilisation de l'éditeur d'ontologies Protégé 2000 pour l'ajout de classes, propriétés et restrictions. \\
-Cela est réalisé sur l'ontologie \emph{Insurance} générée automatiquement que nous avons pris comme cas
-d'études.
+De ce fait, nous commençons par expliquer la démarche suivie lors de l'utilisation de l'éditeur d'ontologies Protégé 2000 pour l'ajout de classes, propriétés et restrictions. 
+\paragraph{}
+Cela est réalisé sur l'ontologie \emph{Insurance} générée automatiquement, que nous avons prise comme cas
+d'étude.
 \paragraph{}
 Nous commençons par modifier l'ontologie \emph{Insurance} générée précédemment à l'aide de l'éditeur Protégé 2000.\\ Cette modification consiste à rajouter les classes et relations manquantes comme le montre la figure suivante :
 
@@ -1522,16 +1516,17 @@ La relation \emph{gr:Offered} est quant à elle formée comme suit :
 Notons que ces deux relations possèdent des domaines et ranges inversés.\\
 
 De ce fait, j'ai ajouté une propriété \emph{inverseOf} aux deux relations afin de les lier sémantiquement.\\
-L'ajout d'une telle propriété a été effectué à l'aide de Protégé et a permis d'obtenir le résultat suivant : 
+L'ajout d'une telle propriété a été effectué à l'aide de Protégé et a permis d'obtenir le résultat illustré dans la figure \ref{inverse} : 
 
 \begin{figure}[h!]
 \begin{center}
 \includegraphics[scale=0.45]{/home/boukala/Bureau/Memoire/figures/inverse.png}
 \captionof{figure}{Ajout de la propriété \emph{InverseOf}.}
+\label{inverse}
 \end{center}
 \end{figure}
 \paragraph{}
-Après avoir édité l'ontologie \emph{Insurance} à l'aide de Protégé, cette dernière est prête à être utilisée par le moteur de recherche que j'ai développé pour répondre à la problématique de mon mémoire.
+Après avoir édité l'ontologie \emph{Insurance} à l'aide de Protégé, cette dernière est prête à être utilisée par le moteur de recherche que j'ai développé pour répondre à ma problématique.
 
 
 \subsection{Insurance : Moteur de recherche sémantique pour les assurances}
@@ -1561,7 +1556,7 @@ Dans le cadre d'une recherche sémantique, l'utilisateur renseigne un mot clé d
 Ce dernier devra ensuite cliquer sur le bouton \textbf{Recherche} afin de lancer la recherche.
 
 \paragraph{}
-Les résultats de la recherche sont ensuite affichés comme suit : 
+Les résultats de la recherche sont ensuite affichés dans la figure \ref{resultat}. 
 
 \begin{figure}[h!]
 \begin{center}
@@ -1571,6 +1566,7 @@ Les résultats de la recherche sont ensuite affichés comme suit :
 \end{center}
 \end{figure}
 
+\paragraph{}
 Il est à noter que la capture d'écran précédente illustre un cas concret de recherche sémantique.
 
 \paragraph{}
@@ -1578,7 +1574,7 @@ En effet, lorsque l'utilisateur a introduit le mot clé \textbf{Policy}, il a ob
 
 \paragraph{}
 Par conséquence, le moteur de recherche a utilisé l'expression logique $$Policy \equiv Contract$$
-Et a permis de déduire que tous les résultats répondant au mot clé \textbf{Contract}, répondent aussi au mot clé \textbf{Policy} et réciproquement.
+et a permis de déduire que tous les résultats répondant au mot clé \textbf{Contract}, répondent aussi au mot clé \textbf{Policy} et réciproquement.
 
 \paragraph{}
 Les résultats obtenus sont accompagnés des URI renvoyant vers les documents et pages associés.
@@ -1613,14 +1609,81 @@ J'ai aussi exposé des captures d'écran de l'application développée, en expli
 
 \paragraph{}
 Le moteur de recherche sémantique développé s'applique essentiellement au domaine des assurances.
-Nous pouvons facilement imaginer que ce dernier soit appliqué à d'autres domaines, en appliquant la même procédure sur un corpus de documents de domaine différent.
+Nous pouvons facilement imaginer que ce dernier pourrait être appliqué à d'autres domaines, en appliquant la même procédure sur un corpus de documents de domaine différent.
  
 
+\chapter*{Conclusion générale}
+\paragraph{}
+Le Web  Sémantique fait référence à la vision du  web de demain dans lequel les utilisateurs devraient être déchargés d’une bonne partie de leurs tâches de recherche et d’exploitation des résultats, grâce  aux  capacités  accrues  des  machines  à  accéder  aux  contenus  des  ressources  et  à  effectuer  des raisonnements sur celles-ci \citep{ws}.
+\paragraph{}
+Concrètement, le Web Sémantique est une infrastructure qui permet l’utilisation de connaissances formalisées    en plus du contenu informel que nous pouvons trouver dans le web actuel. Cette infrastructure s’appuie sur un certain niveau de consensus portant, par exemple, sur les langages de représentation ou sur les ontologies  utilisées.  Ainsi, elle permet, le plus automatiquement possible, l’interopérabilité et les transformations entre les différents formalismes et les différentes ontologies \citep{timBerners}.
+ 
+\paragraph{}
 
+Définie pour un objectif donné, l’ontologie exprime un point de vue partagé par une communauté. Elle s’exprime dans un langage et repose sur une théorie (sémantique) assurant des propriétés en termes de consensus, cohérence, réutilisation et partage \citep{charlet}. \\
 
+Un intérêt particulier lui est donc consacré vu l’espace de recherche de plus en plus important qu’elle occupe. Elle devient incontournable tant ses domaines d’application sont variés.
 
+\paragraph{}
 
+Dans ce travail, l'ontologie est particulièrement utilisée comme un vocabulaire consensuel, pour la représentation des connaissances. Elle décrit les objets, leurs propriétés et la façon dont ils peuvent se combiner constituant ainsi les connaissances du domaine.
+\paragraph{}
+Le rôle de l'ontologie est de ce fait, indéniablement primordial, lors de l'élaboration d'un moteur de recherche sémantique d'informations. Cette dernière confère au moteur de recherche un modèle logique, donnant la possibilité de formuler des requêtes simples, offrant des résultats plus pertinents, riches et qui découlent d'une raisonnement logique et mathématique.
 
+\paragraph{}
+
+Après avoir mis l’accent sur le rôle de l’ontologie et l’importance qu’elle revêt dans l'élaboration d'un moteur de recherche sémantique, la problématique liée à l'existence d'une ontologie de domaine apparaît.\\
+Dans mon cas, il s'agissait de trouver une ontologie liée au domaine des assurances, assez riche pour couvrir des sujets d'assurances transverses et en conformité avec la banque de données et documents présents dans le réseau intranet d'Axa France.
+
+\paragraph{}
+
+C'est à l'issue de cette problématique, que l'idée de générer des ontologies automatiquement à partir d'un ensemble de documents a émergé. Dans ce contexte, sont apparues plusieurs architectures et méthodologies basées sur le traitement automatique des langages, sur le Data-mining, ainsi que sur des méthodes statistiques.\\
+
+\paragraph{}
+
+J'ai eu la chance de pouvoir explorer certaines de ces solutions existantes lors de l'élaboration de mon état de l'art. Cela m'a permis de comparer ces dernières en terme d'efficacité et de résultats obtenus.
+
+\paragraph{}
+
+Ce travail intervient dans un premier temps, dans le cadre de la réalisation d'une solution de génération automatique d'une ontologie dédiée aux assurances. Cette solution combine certaines des bonnes pratiques que nous retrouvons dans l'état de l'art, ce dans le but de garantir des résultats satisfaisants.
+
+\paragraph{}
+Après que l'ontologie soit générée automatiquement, un léger travail d'adaptation a été fourni afin de rendre cette dernière plus cohérente avec la bibliothèque de documents. 
+
+\paragraph{}
+
+Pour répondre à l'objectif ultime de mon mémoire, j'ai développé un moteur de recherche sémantique pour le domaine des assurances, basé sur l'ontologie générée automatiquement. L'application développée offre à l'utilisateur une interface graphique simple à manipuler et aussi ergonomique que ce nous retrouvons dans les moteurs de recherches actuels.
+
+\paragraph{}
+
+J'estime que les résultats du travail réalisé sont satisfaisants, et je suis convaincu que les  traitements sémantiques faciliteront grandement les applications de demain. En particulier, je pense qu’elles contribueront fortement à transformer la recherche d’informations dans le futur.
+
+\paragraph{} 
+Ce mémoire de Master 2 m'a été bénéfique et m'a permis : \\
+\begin{itemize}
+\item De me familiariser avec les technologies du web de demain (Ontologies, Base RDF, SPARQL,
+l’API Jena).\\
+\item D'améliorer mon aptitude à me documenter et à travailler sur un domaine qui jusqu’ici,
+m'était inconnu.\\
+\item D'approfondir mes connaissances dans le domaine des assurances.\\
+\end{itemize}
+
+\paragraph{}
+Certains axes d'améliorations et perspectives sont à prendre en considération afin de perfectionner ce travail, je cite : \\
+
+\begin{itemize}
+
+\item Amélioration de l’application en ajoutant des dictionnaires de langue, ce qui va permettre
+une plus grande pertinence dans les résultats.\\
+
+\item Passer à un modèle de liage de donnée avec DBPédia et ainsi faire de notre application un
+outil du web sémantique pour les assurances.\\
+
+\item Traitement automatique du langage pour pouvoir effectuer des requêtes en langage naturel.\\
+
+\item Généraliser le moteur de recherche implémenté pour n'importe quel domaine.\\
+
+\end{itemize}
 
 
 

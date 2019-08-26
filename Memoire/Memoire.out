@@ -1,4 +1,4 @@
-\BOOKMARK [0][-]{chapter.1}{Introduction g\351n\351rale}{}% 1
+\BOOKMARK [0][-]{chapter.1}{Introduction g[Please insert \134PrerenderUnicode\173é\175 into preamble]n[Please insert \134PrerenderUnicode\173é\175 into preamble]rale}{}% 1
 \BOOKMARK [0][-]{chapter.2}{Contexte et probl\351matique}{}% 2
 \BOOKMARK [1][-]{section.2.1}{Description du contexte}{chapter.2}% 3
 \BOOKMARK [1][-]{section.2.2}{Pourquoi avoir choisi cette probl\351matique ?}{chapter.2}% 4
@@ -15,30 +15,29 @@
 \BOOKMARK [2][-]{subsection.3.3.1}{Ontology learning from Web-based corpus}{section.3.3}% 15
 \BOOKMARK [2][-]{subsection.3.3.2}{Semantic search based on automatic building of an Ontology from a Corpus of Text Documents Using Data Mining Tools}{section.3.3}% 16
 \BOOKMARK [2][-]{subsection.3.3.3}{Conclusion}{section.3.3}% 17
-\BOOKMARK [0][-]{chapter.4}{Cas d'\351tude du moteur de recherche s\351mantique des assurances}{}% 18
+\BOOKMARK [0][-]{chapter.4}{Cas d'\351tude : Moteur de recherche s\351mantique des assurances}{}% 18
 \BOOKMARK [1][-]{section.4.1}{Introduction}{chapter.4}% 19
 \BOOKMARK [1][-]{section.4.2}{Acquisition des donn\351es}{chapter.4}% 20
 \BOOKMARK [1][-]{section.4.3}{Etude de l'ontologie pr\351-existante \215Insurance\216}{chapter.4}% 21
-\BOOKMARK [1][-]{section.4.4}{Solution appliqu\351e pour la cr\351ation automatique des ontologies}{chapter.4}% 22
-\BOOKMARK [2][-]{subsection.4.4.1}{Le mod\350le d'ontologie probabiliste}{section.4.4}% 23
-\BOOKMARK [2][-]{subsection.4.4.2}{D\351couverte du changement des donn\351es}{section.4.4}% 24
-\BOOKMARK [2][-]{subsection.4.4.3}{Traitement du langage naturel \(NLP\)}{section.4.4}% 25
-\BOOKMARK [2][-]{subsection.4.4.4}{Algorithme de construction}{section.4.4}% 26
-\BOOKMARK [0][-]{chapter.5}{Travail et r\351alisation}{}% 27
-\BOOKMARK [1][-]{section.5.1}{Introduction}{chapter.5}% 28
-\BOOKMARK [1][-]{section.5.2}{Outil utilis\351s}{chapter.5}% 29
-\BOOKMARK [2][-]{subsection.5.2.1}{Le langage Java}{section.5.2}% 30
-\BOOKMARK [2][-]{subsection.5.2.2}{L'API Jena}{section.5.2}% 31
-\BOOKMARK [2][-]{subsection.5.2.3}{L'outil de versionnage : Git}{section.5.2}% 32
-\BOOKMARK [2][-]{subsection.5.2.4}{Le langage Python}{section.5.2}% 33
-\BOOKMARK [2][-]{subsection.5.2.5}{L'\351diteur d'ontologies Prot\351g\351}{section.5.2}% 34
-\BOOKMARK [2][-]{subsection.5.2.6}{L'environnement de d\351veloppement Eclipse}{section.5.2}% 35
-\BOOKMARK [2][-]{subsection.5.2.7}{Le langage de requ\352tes SPARQL}{section.5.2}% 36
-\BOOKMARK [2][-]{subsection.5.2.8}{La Gate 4.0}{section.5.2}% 37
-\BOOKMARK [2][-]{subsection.5.2.9}{WordNet}{section.5.2}% 38
-\BOOKMARK [1][-]{section.5.3}{Travail r\351alis\351}{chapter.5}% 39
-\BOOKMARK [2][-]{subsection.5.3.1}{Nettoyage des documents}{section.5.3}% 40
-\BOOKMARK [2][-]{subsection.5.3.2}{Outil de g\351n\351ration automatique des ontologies}{section.5.3}% 41
-\BOOKMARK [2][-]{subsection.5.3.3}{Utilisation du framework Prot\351g\351}{section.5.3}% 42
-\BOOKMARK [2][-]{subsection.5.3.4}{Insurance : Moteur de recherche s\351mantique pour les assurances}{section.5.3}% 43
-\BOOKMARK [1][-]{section.5.4}{Conclusion}{chapter.5}% 44
+\BOOKMARK [2][-]{subsection.4.3.1}{Concepts et relations}{section.4.3}% 22
+\BOOKMARK [1][-]{section.4.4}{Solution appliqu\351e pour la cr\351ation automatique des ontologies}{chapter.4}% 23
+\BOOKMARK [2][-]{subsection.4.4.1}{Le mod\350le d'ontologie probabiliste \(POM\)}{section.4.4}% 24
+\BOOKMARK [2][-]{subsection.4.4.2}{D\351couverte du changement des donn\351es}{section.4.4}% 25
+\BOOKMARK [2][-]{subsection.4.4.3}{Traitement du langage naturel \(NLP\)}{section.4.4}% 26
+\BOOKMARK [2][-]{subsection.4.4.4}{Algorithme de construction}{section.4.4}% 27
+\BOOKMARK [0][-]{chapter.5}{Travail et r\351alisation}{}% 28
+\BOOKMARK [1][-]{section.5.1}{Introduction}{chapter.5}% 29
+\BOOKMARK [1][-]{section.5.2}{Outils utilis\351s}{chapter.5}% 30
+\BOOKMARK [2][-]{subsection.5.2.1}{Le langage Java}{section.5.2}% 31
+\BOOKMARK [2][-]{subsection.5.2.2}{L'API Jena}{section.5.2}% 32
+\BOOKMARK [2][-]{subsection.5.2.3}{L'outil de versionnage : Git}{section.5.2}% 33
+\BOOKMARK [2][-]{subsection.5.2.4}{Le langage Python}{section.5.2}% 34
+\BOOKMARK [2][-]{subsection.5.2.5}{L'\351diteur d'ontologies Prot\351g\351}{section.5.2}% 35
+\BOOKMARK [2][-]{subsection.5.2.6}{L'environnement de d\351veloppement Eclipse}{section.5.2}% 36
+\BOOKMARK [2][-]{subsection.5.2.7}{Le langage de requ\352tes SPARQL}{section.5.2}% 37
+\BOOKMARK [1][-]{section.5.3}{Travail r\351alis\351}{chapter.5}% 38
+\BOOKMARK [2][-]{subsection.5.3.1}{Nettoyage des documents}{section.5.3}% 39
+\BOOKMARK [2][-]{subsection.5.3.2}{Outil de g\351n\351ration automatique des ontologies}{section.5.3}% 40
+\BOOKMARK [2][-]{subsection.5.3.3}{Utilisation du framework Prot\351g\351}{section.5.3}% 41
+\BOOKMARK [2][-]{subsection.5.3.4}{Insurance : Moteur de recherche s\351mantique pour les assurances}{section.5.3}% 42
+\BOOKMARK [1][-]{section.5.4}{Conclusion}{chapter.5}% 43

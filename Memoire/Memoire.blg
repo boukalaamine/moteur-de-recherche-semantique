@@ -3,50 +3,56 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: Memoire.aux
 The style file: plain.bst
 Database file #1: Memoire.bib
+Warning--I didn't find a database entry for "pom2"
 Warning--to sort, need author or key in apache
+Warning--to sort, need author or key in sparql
+Warning--to sort, need author or key in swing
 Warning--empty author in apache
 Warning--empty title in apache
 Warning--empty year in apache
+Warning--empty author in sparql
+Warning--empty journal in jena
+Warning--empty booktitle in cvalue
 Warning--empty booktitle in inproceedings
-You've used 13 entries,
+You've used 34 entries,
             2118 wiz_defined-function locations,
-            567 strings with 5751 characters,
-and the built_in function-call counts, 3761 in all, are:
-= -- 373
-> -- 118
-< -- 3
-+ -- 52
-- -- 36
-* -- 224
-:= -- 620
-add.period$ -- 37
-call.type$ -- 13
-change.case$ -- 56
+            674 strings with 8675 characters,
+and the built_in function-call counts, 9435 in all, are:
+= -- 932
+> -- 337
+< -- 9
++ -- 145
+- -- 104
+* -- 543
+:= -- 1579
+add.period$ -- 99
+call.type$ -- 34
+change.case$ -- 153
 chr.to.int$ -- 0
-cite$ -- 18
-duplicate$ -- 168
-empty$ -- 320
-format.name$ -- 36
-if$ -- 808
+cite$ -- 44
+duplicate$ -- 421
+empty$ -- 776
+format.name$ -- 104
+if$ -- 2015
 int.to.chr$ -- 0
-int.to.str$ -- 13
-missing$ -- 13
-newline$ -- 66
-num.names$ -- 24
-pop$ -- 57
+int.to.str$ -- 34
+missing$ -- 33
+newline$ -- 170
+num.names$ -- 62
+pop$ -- 155
 preamble$ -- 1
-purify$ -- 44
+purify$ -- 120
 quote$ -- 0
-skip$ -- 126
+skip$ -- 322
 stack$ -- 0
-substring$ -- 251
-swap$ -- 40
-text.length$ -- 3
+substring$ -- 519
+swap$ -- 96
+text.length$ -- 9
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 52
-warning$ -- 5
-while$ -- 35
-width$ -- 15
-write$ -- 134
-(There were 5 warnings)
+type$ -- 136
+warning$ -- 10
+while$ -- 85
+width$ -- 36
+write$ -- 352
+(There were 11 warnings)

@@ -1,23 +1,23 @@
 \select@language {french}
-\contentsline {chapter}{\numberline {1}Introduction g\IeC {\'e}n\IeC {\'e}rale}{1}{chapter.1}
+\contentsline {chapter}{\numberline {1}Introduction g\begingroup \let \relax \relax \endgroup [Pleaseinsert\PrerenderUnicode {é}intopreamble]n\begingroup \let \relax \relax \endgroup [Pleaseinsert\PrerenderUnicode {é}intopreamble]rale}{1}{chapter.1}
 \contentsline {paragraph}{}{1}{section*.3}
 \contentsline {paragraph}{}{1}{section*.4}
 \contentsline {paragraph}{}{1}{section*.5}
 \contentsline {paragraph}{}{1}{section*.6}
-\contentsline {paragraph}{}{1}{section*.7}
+\contentsline {paragraph}{}{2}{section*.7}
 \contentsline {paragraph}{}{2}{section*.8}
 \contentsline {paragraph}{}{2}{section*.9}
 \contentsline {paragraph}{}{2}{section*.10}
 \contentsline {paragraph}{}{2}{section*.11}
+\contentsline {paragraph}{}{2}{section*.12}
 \contentsline {chapter}{\numberline {2}Contexte et probl\IeC {\'e}matique}{3}{chapter.2}
 \contentsline {section}{\numberline {2.1}Description du contexte}{3}{section.2.1}
-\contentsline {paragraph}{}{3}{section*.12}
 \contentsline {paragraph}{}{3}{section*.13}
 \contentsline {paragraph}{}{3}{section*.14}
 \contentsline {paragraph}{}{3}{section*.15}
 \contentsline {paragraph}{}{3}{section*.16}
 \contentsline {paragraph}{}{3}{section*.17}
-\contentsline {paragraph}{}{4}{section*.18}
+\contentsline {paragraph}{}{3}{section*.18}
 \contentsline {paragraph}{}{4}{section*.19}
 \contentsline {paragraph}{}{4}{section*.20}
 \contentsline {paragraph}{}{4}{section*.21}
@@ -27,9 +27,9 @@
 \contentsline {paragraph}{}{4}{section*.25}
 \contentsline {paragraph}{}{4}{section*.26}
 \contentsline {paragraph}{}{4}{section*.27}
-\contentsline {paragraph}{}{5}{section*.28}
+\contentsline {paragraph}{}{4}{section*.28}
+\contentsline {paragraph}{}{5}{section*.29}
 \contentsline {section}{\numberline {2.2}Pourquoi avoir choisi cette probl\IeC {\'e}matique ?}{6}{section.2.2}
-\contentsline {paragraph}{}{6}{section*.29}
 \contentsline {paragraph}{}{6}{section*.30}
 \contentsline {paragraph}{}{6}{section*.31}
 \contentsline {paragraph}{}{6}{section*.32}
@@ -37,302 +37,318 @@
 \contentsline {paragraph}{}{6}{section*.34}
 \contentsline {paragraph}{}{6}{section*.35}
 \contentsline {paragraph}{}{6}{section*.36}
-\contentsline {paragraph}{}{7}{section*.37}
+\contentsline {paragraph}{}{6}{section*.37}
 \contentsline {paragraph}{}{7}{section*.38}
+\contentsline {paragraph}{}{7}{section*.39}
 \contentsline {chapter}{\numberline {3}\IeC {\'E}tat de l'art}{8}{chapter.3}
 \contentsline {section}{\numberline {3.1}Introduction}{8}{section.3.1}
-\contentsline {paragraph}{}{8}{section*.39}
 \contentsline {paragraph}{}{8}{section*.40}
 \contentsline {paragraph}{}{8}{section*.41}
 \contentsline {paragraph}{}{8}{section*.42}
 \contentsline {paragraph}{}{8}{section*.43}
+\contentsline {paragraph}{}{8}{section*.44}
 \contentsline {section}{\numberline {3.2}Notions de base du Web S\IeC {\'e}mantique}{9}{section.3.2}
 \contentsline {subsection}{\numberline {3.2.1}Repr\IeC {\'e}sentation des connaissances}{9}{subsection.3.2.1}
-\contentsline {paragraph}{}{9}{section*.44}
 \contentsline {paragraph}{}{9}{section*.45}
 \contentsline {paragraph}{}{9}{section*.46}
-\contentsline {subsection}{\numberline {3.2.2}Architecture du Web S\IeC {\'e}mantique}{9}{subsection.3.2.2}
 \contentsline {paragraph}{}{9}{section*.47}
-\contentsline {paragraph}{}{9}{section*.49}
-\contentsline {subsection}{\numberline {3.2.3}Concepts de base du Web S\IeC {\'e}mantique}{9}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {3.2.2}Architecture du Web S\IeC {\'e}mantique}{9}{subsection.3.2.2}
+\contentsline {paragraph}{}{9}{section*.48}
 \contentsline {paragraph}{}{9}{section*.50}
-\contentsline {paragraph}{}{10}{section*.51}
-\contentsline {subsection}{\numberline {3.2.4}URI (Unified Resource identifier)}{10}{subsection.3.2.4}
+\contentsline {subsection}{\numberline {3.2.3}Concepts de base du Web S\IeC {\'e}mantique}{9}{subsection.3.2.3}
+\contentsline {paragraph}{}{9}{section*.51}
 \contentsline {paragraph}{}{10}{section*.52}
+\contentsline {subsection}{\numberline {3.2.4}URI (Unified Resource identifier)}{10}{subsection.3.2.4}
 \contentsline {paragraph}{}{10}{section*.53}
+\contentsline {paragraph}{}{10}{section*.54}
 \contentsline {subsection}{\numberline {3.2.5}Mod\IeC {\`e}le RDF (Resource Description Framework)}{11}{subsection.3.2.5}
-\contentsline {paragraph}{}{11}{section*.54}
 \contentsline {paragraph}{}{11}{section*.55}
 \contentsline {paragraph}{}{11}{section*.56}
 \contentsline {paragraph}{}{11}{section*.57}
 \contentsline {paragraph}{}{11}{section*.58}
 \contentsline {paragraph}{}{11}{section*.59}
 \contentsline {paragraph}{}{11}{section*.60}
-\contentsline {paragraph}{}{12}{section*.61}
+\contentsline {paragraph}{}{11}{section*.61}
 \contentsline {paragraph}{}{12}{section*.62}
 \contentsline {paragraph}{}{12}{section*.63}
 \contentsline {paragraph}{}{12}{section*.64}
-\contentsline {paragraph}{}{12}{figure.caption.66}
+\contentsline {paragraph}{}{12}{section*.65}
+\contentsline {paragraph}{}{12}{figure.caption.67}
 \contentsline {subsection}{\numberline {3.2.6}Ontologies}{13}{subsection.3.2.6}
-\contentsline {subsubsection}{de l'Ontologie \IeC {\`a} l'ontologie}{13}{section*.67}
-\contentsline {paragraph}{}{13}{section*.68}
+\contentsline {subsubsection}{de l'Ontologie \IeC {\`a} l'ontologie}{13}{section*.68}
 \contentsline {paragraph}{}{13}{section*.69}
-\contentsline {subsubsection}{L'ontologie d'un point de vue informatique}{13}{section*.70}
-\contentsline {paragraph}{}{13}{section*.71}
+\contentsline {paragraph}{}{13}{section*.70}
+\contentsline {subsubsection}{L'ontologie d'un point de vue informatique}{13}{section*.71}
 \contentsline {paragraph}{}{13}{section*.72}
 \contentsline {paragraph}{}{13}{section*.73}
 \contentsline {paragraph}{}{13}{section*.74}
 \contentsline {paragraph}{}{13}{section*.75}
-\contentsline {subsubsection}{Repr\IeC {\'e}sentation des ontologies}{14}{section*.77}
-\contentsline {paragraph}{}{14}{section*.78}
+\contentsline {paragraph}{}{13}{section*.76}
+\contentsline {subsubsection}{Repr\IeC {\'e}sentation des ontologies}{14}{section*.78}
 \contentsline {paragraph}{}{14}{section*.79}
 \contentsline {paragraph}{}{14}{section*.80}
 \contentsline {paragraph}{}{14}{section*.81}
 \contentsline {paragraph}{}{14}{section*.82}
-\contentsline {paragraph}{}{15}{section*.83}
-\contentsline {subsubsection}{Le Langage OWL}{15}{section*.84}
-\contentsline {paragraph}{}{15}{section*.85}
-\contentsline {subsubsection}{Composants d'une ontologie}{15}{section*.86}
-\contentsline {paragraph}{}{15}{section*.87}
-\contentsline {subsubsection}{Exemple d'ontologie}{15}{section*.88}
-\contentsline {paragraph}{}{15}{section*.89}
+\contentsline {paragraph}{}{14}{section*.83}
+\contentsline {paragraph}{}{15}{section*.84}
+\contentsline {subsubsection}{Le Langage OWL}{15}{section*.85}
+\contentsline {paragraph}{}{15}{section*.86}
+\contentsline {subsubsection}{Composants d'une ontologie}{15}{section*.87}
+\contentsline {paragraph}{}{15}{section*.88}
+\contentsline {subsubsection}{Exemple d'ontologie}{15}{section*.89}
 \contentsline {paragraph}{}{15}{section*.90}
-\contentsline {paragraph}{}{16}{section*.91}
+\contentsline {paragraph}{}{15}{section*.91}
+\contentsline {paragraph}{}{16}{section*.92}
 \contentsline {section}{\numberline {3.3}Solutions existantes}{17}{section.3.3}
 \contentsline {subsection}{\numberline {3.3.1}Ontology learning from Web-based corpus}{17}{subsection.3.3.1}
-\contentsline {paragraph}{}{17}{section*.92}
-\contentsline {subsubsection}{Moteur de recherche s\IeC {\'e}mantique bas\IeC {\'e} sur les ontologies de domaine}{17}{section*.93}
-\contentsline {paragraph}{}{17}{section*.94}
+\contentsline {paragraph}{}{17}{section*.93}
+\contentsline {subsubsection}{Moteur de recherche s\IeC {\'e}mantique bas\IeC {\'e} sur les ontologies de domaine}{17}{section*.94}
 \contentsline {paragraph}{}{17}{section*.95}
 \contentsline {paragraph}{}{17}{section*.96}
 \contentsline {paragraph}{}{17}{section*.97}
 \contentsline {paragraph}{}{17}{section*.98}
 \contentsline {paragraph}{}{17}{section*.99}
 \contentsline {paragraph}{}{17}{section*.100}
-\contentsline {subsubsection}{Apprentissage des ontologies (Ontology learning) }{18}{section*.101}
-\contentsline {paragraph}{}{18}{section*.102}
+\contentsline {paragraph}{}{17}{section*.101}
+\contentsline {subsubsection}{Apprentissage des ontologies (Ontology learning) }{18}{section*.102}
 \contentsline {paragraph}{}{18}{section*.103}
 \contentsline {paragraph}{}{18}{section*.104}
 \contentsline {paragraph}{}{18}{section*.105}
 \contentsline {paragraph}{}{18}{section*.106}
-\contentsline {subsubsection}{Architecture du moteur de recherche propos\IeC {\'e}}{18}{section*.107}
-\contentsline {paragraph}{}{18}{section*.108}
+\contentsline {paragraph}{}{18}{section*.107}
+\contentsline {subsubsection}{Architecture du moteur de recherche propos\IeC {\'e}}{18}{section*.108}
 \contentsline {paragraph}{}{18}{section*.109}
-\contentsline {paragraph}{}{19}{section*.111}
+\contentsline {paragraph}{}{18}{section*.110}
 \contentsline {paragraph}{}{19}{section*.112}
 \contentsline {paragraph}{}{19}{section*.113}
 \contentsline {paragraph}{}{19}{section*.114}
-\contentsline {subsubsection}{Le composant de g\IeC {\'e}n\IeC {\'e}ration d'ontologies}{19}{section*.115}
-\contentsline {paragraph}{}{19}{section*.116}
+\contentsline {paragraph}{}{19}{section*.115}
+\contentsline {subsubsection}{Le composant de g\IeC {\'e}n\IeC {\'e}ration d'ontologies}{19}{section*.116}
 \contentsline {paragraph}{}{19}{section*.117}
-\contentsline {paragraph}{}{20}{section*.118}
+\contentsline {paragraph}{}{19}{section*.118}
 \contentsline {paragraph}{}{20}{section*.119}
 \contentsline {paragraph}{}{20}{section*.120}
-\contentsline {subsubsection}{Discussion}{20}{section*.121}
-\contentsline {paragraph}{}{20}{section*.122}
+\contentsline {paragraph}{}{20}{section*.121}
+\contentsline {subsubsection}{Discussion}{20}{section*.122}
 \contentsline {paragraph}{}{20}{section*.123}
 \contentsline {paragraph}{}{20}{section*.124}
-\contentsline {paragraph}{}{21}{section*.125}
+\contentsline {paragraph}{}{20}{section*.125}
 \contentsline {paragraph}{}{21}{section*.126}
+\contentsline {paragraph}{}{21}{section*.127}
 \contentsline {subsection}{\numberline {3.3.2}Semantic search based on automatic building of an Ontology from a Corpus of Text Documents Using Data Mining Tools}{22}{subsection.3.3.2}
-\contentsline {paragraph}{}{22}{section*.127}
 \contentsline {paragraph}{}{22}{section*.128}
 \contentsline {paragraph}{}{22}{section*.129}
 \contentsline {paragraph}{}{22}{section*.130}
 \contentsline {paragraph}{}{22}{section*.131}
 \contentsline {paragraph}{}{22}{section*.132}
-\contentsline {subsubsection}{\IeC {\'E}tape pr\IeC {\'e}liminaire}{22}{section*.133}
-\contentsline {paragraph}{}{22}{section*.134}
+\contentsline {paragraph}{}{22}{section*.133}
+\contentsline {subsubsection}{\IeC {\'E}tape pr\IeC {\'e}liminaire}{22}{section*.134}
 \contentsline {paragraph}{}{22}{section*.135}
-\contentsline {paragraph}{}{23}{section*.136}
+\contentsline {paragraph}{}{22}{section*.136}
 \contentsline {paragraph}{}{23}{section*.137}
 \contentsline {paragraph}{}{23}{section*.138}
 \contentsline {paragraph}{}{23}{section*.139}
-\contentsline {subsubsection}{Mining frequent terms}{23}{section*.140}
-\contentsline {paragraph}{}{23}{section*.141}
+\contentsline {paragraph}{}{23}{section*.140}
+\contentsline {subsubsection}{Mining frequent terms}{23}{section*.141}
 \contentsline {paragraph}{}{23}{section*.142}
 \contentsline {paragraph}{}{23}{section*.143}
-\contentsline {paragraph}{}{24}{section*.145}
-\contentsline {paragraph}{}{24}{section*.148}
+\contentsline {paragraph}{}{23}{section*.144}
+\contentsline {paragraph}{}{24}{section*.146}
 \contentsline {paragraph}{}{24}{section*.149}
-\contentsline {paragraph}{}{24}{section*.151}
-\contentsline {subsubsection}{Discussion}{25}{section*.152}
-\contentsline {paragraph}{}{25}{section*.153}
+\contentsline {paragraph}{}{24}{section*.150}
+\contentsline {paragraph}{}{24}{section*.152}
+\contentsline {subsubsection}{Discussion}{25}{section*.153}
 \contentsline {paragraph}{}{25}{section*.154}
+\contentsline {paragraph}{}{25}{section*.155}
 \contentsline {subsection}{\numberline {3.3.3}Conclusion}{26}{subsection.3.3.3}
-\contentsline {paragraph}{}{26}{section*.155}
 \contentsline {paragraph}{}{26}{section*.156}
 \contentsline {paragraph}{}{26}{section*.157}
 \contentsline {paragraph}{}{26}{section*.158}
-\contentsline {paragraph}{}{27}{section*.159}
-\contentsline {chapter}{\numberline {4}Cas d'\IeC {\'e}tude du moteur de recherche s\IeC {\'e}mantique des assurances}{28}{chapter.4}
+\contentsline {paragraph}{}{26}{section*.159}
+\contentsline {paragraph}{}{27}{section*.160}
+\contentsline {chapter}{\numberline {4}Cas d'\IeC {\'e}tude : Moteur de recherche s\IeC {\'e}mantique des assurances}{28}{chapter.4}
 \contentsline {section}{\numberline {4.1}Introduction}{28}{section.4.1}
-\contentsline {paragraph}{}{28}{section*.160}
 \contentsline {paragraph}{}{28}{section*.161}
 \contentsline {paragraph}{}{28}{section*.162}
 \contentsline {paragraph}{}{28}{section*.163}
-\contentsline {section}{\numberline {4.2}Acquisition des donn\IeC {\'e}es}{28}{section.4.2}
 \contentsline {paragraph}{}{28}{section*.164}
-\contentsline {paragraph}{}{29}{section*.165}
+\contentsline {section}{\numberline {4.2}Acquisition des donn\IeC {\'e}es}{28}{section.4.2}
+\contentsline {paragraph}{}{28}{section*.165}
 \contentsline {paragraph}{}{29}{section*.166}
-\contentsline {section}{\numberline {4.3}Etude de l'ontologie pr\IeC {\'e}-existante \IeC {\textquotedblleft }Insurance\IeC {\textquotedblright }}{29}{section.4.3}
 \contentsline {paragraph}{}{29}{section*.167}
 \contentsline {paragraph}{}{29}{section*.168}
+\contentsline {section}{\numberline {4.3}Etude de l'ontologie pr\IeC {\'e}-existante \IeC {\textquotedblleft }Insurance\IeC {\textquotedblright }}{29}{section.4.3}
+\contentsline {paragraph}{}{29}{section*.169}
+\contentsline {subsection}{\numberline {4.3.1}Concepts et relations}{29}{subsection.4.3.1}
 \contentsline {paragraph}{}{29}{section*.170}
-\contentsline {paragraph}{}{29}{section*.171}
+\contentsline {paragraph}{}{29}{section*.172}
 \contentsline {paragraph}{}{29}{section*.173}
 \contentsline {paragraph}{}{30}{section*.175}
-\contentsline {paragraph}{}{30}{section*.176}
 \contentsline {paragraph}{}{30}{section*.177}
+\contentsline {paragraph}{}{30}{section*.178}
 \contentsline {section}{\numberline {4.4}Solution appliqu\IeC {\'e}e pour la cr\IeC {\'e}ation automatique des ontologies}{31}{section.4.4}
-\contentsline {paragraph}{}{31}{section*.178}
-\contentsline {paragraph}{}{31}{section*.180}
-\contentsline {subsection}{\numberline {4.4.1}Le mod\IeC {\`e}le d'ontologie probabiliste}{32}{subsection.4.4.1}
+\contentsline {paragraph}{}{31}{section*.179}
 \contentsline {paragraph}{}{32}{section*.181}
-\contentsline {paragraph}{}{33}{section*.182}
-\contentsline {subsection}{\numberline {4.4.2}D\IeC {\'e}couverte du changement des donn\IeC {\'e}es}{33}{subsection.4.4.2}
+\contentsline {subsection}{\numberline {4.4.1}Le mod\IeC {\`e}le d'ontologie probabiliste (POM)}{32}{subsection.4.4.1}
+\contentsline {paragraph}{}{32}{section*.182}
 \contentsline {paragraph}{}{33}{section*.183}
+\contentsline {subsection}{\numberline {4.4.2}D\IeC {\'e}couverte du changement des donn\IeC {\'e}es}{33}{subsection.4.4.2}
 \contentsline {paragraph}{}{33}{section*.184}
 \contentsline {paragraph}{}{33}{section*.185}
 \contentsline {paragraph}{}{33}{section*.186}
 \contentsline {paragraph}{}{34}{section*.187}
 \contentsline {paragraph}{}{34}{section*.188}
 \contentsline {paragraph}{}{34}{section*.189}
-\contentsline {subsection}{\numberline {4.4.3}Traitement du langage naturel (NLP)}{34}{subsection.4.4.3}
-\contentsline {paragraph}{}{34}{section*.191}
+\contentsline {paragraph}{}{34}{section*.190}
+\contentsline {subsection}{\numberline {4.4.3}Traitement du langage naturel (NLP)}{35}{subsection.4.4.3}
 \contentsline {paragraph}{}{35}{section*.192}
 \contentsline {paragraph}{}{35}{section*.193}
-\contentsline {subsubsection}{L'approche C-value}{35}{section*.194}
-\contentsline {paragraph}{}{35}{section*.195}
+\contentsline {paragraph}{}{35}{section*.194}
+\contentsline {subsubsection}{L'approche C-value}{35}{section*.195}
 \contentsline {paragraph}{}{35}{section*.196}
 \contentsline {paragraph}{}{35}{section*.197}
 \contentsline {paragraph}{}{35}{section*.198}
 \contentsline {paragraph}{}{35}{section*.199}
-\contentsline {subsubsection}{1. La partie linguistique}{35}{section*.200}
-\contentsline {paragraph}{}{35}{section*.201}
-\contentsline {subsubsection}{Le marquage des informations du corpus}{36}{section*.202}
-\contentsline {paragraph}{}{36}{section*.203}
+\contentsline {paragraph}{}{35}{section*.200}
+\contentsline {subsubsection}{1. La partie linguistique}{35}{section*.201}
+\contentsline {paragraph}{}{35}{section*.202}
+\contentsline {subsubsection}{Le marquage des informations du corpus}{36}{section*.203}
 \contentsline {paragraph}{}{36}{section*.204}
 \contentsline {paragraph}{}{36}{section*.205}
-\contentsline {subsubsection}{Le filtre linguistique}{36}{section*.208}
-\contentsline {paragraph}{}{36}{section*.209}
+\contentsline {paragraph}{}{36}{section*.206}
+\contentsline {subsubsection}{Le filtre linguistique}{37}{section*.209}
 \contentsline {paragraph}{}{37}{section*.210}
 \contentsline {paragraph}{}{37}{section*.211}
-\contentsline {subsubsection}{La stop-list}{37}{section*.212}
-\contentsline {paragraph}{}{37}{section*.213}
+\contentsline {paragraph}{}{37}{section*.212}
+\contentsline {subsubsection}{La stop-list}{38}{section*.213}
 \contentsline {paragraph}{}{38}{section*.214}
-\contentsline {subsubsection}{2. La partie statistique}{38}{section*.215}
-\contentsline {paragraph}{}{38}{section*.216}
+\contentsline {paragraph}{}{38}{section*.215}
+\contentsline {subsubsection}{2. La partie statistique}{38}{section*.216}
 \contentsline {paragraph}{}{38}{section*.217}
-\contentsline {subsubsection}{a. La fr\IeC {\'e}quence totale des occurrences de la cha\IeC {\^\i }ne candidate dans le corpus}{38}{section*.218}
-\contentsline {paragraph}{}{39}{section*.219}
+\contentsline {paragraph}{}{38}{section*.218}
+\contentsline {subsubsection}{a. La fr\IeC {\'e}quence totale des occurrences de la cha\IeC {\^\i }ne candidate dans le corpus}{38}{section*.219}
 \contentsline {paragraph}{}{39}{section*.220}
 \contentsline {paragraph}{}{39}{section*.221}
-\contentsline {subsubsection}{b. La fr\IeC {\'e}quence de la cha\IeC {\^\i }ne candidate par rapport aux autres termes candidats}{39}{section*.222}
-\contentsline {paragraph}{}{39}{section*.223}
+\contentsline {paragraph}{}{39}{section*.222}
+\contentsline {subsubsection}{b. La fr\IeC {\'e}quence de la cha\IeC {\^\i }ne candidate par rapport aux autres termes candidats}{39}{section*.223}
 \contentsline {paragraph}{}{39}{section*.224}
-\contentsline {paragraph}{}{39}{section*.225}
+\contentsline {paragraph}{}{40}{section*.225}
 \contentsline {paragraph}{}{40}{section*.226}
 \contentsline {paragraph}{}{40}{section*.227}
 \contentsline {paragraph}{}{40}{section*.228}
 \contentsline {paragraph}{}{40}{section*.229}
-\contentsline {subsubsection}{d. La longueur de la cha\IeC {\^\i }ne candidate (en nombre de mots)}{40}{section*.230}
-\contentsline {paragraph}{}{40}{section*.231}
+\contentsline {paragraph}{}{40}{section*.230}
+\contentsline {subsubsection}{d. La longueur de la cha\IeC {\^\i }ne candidate (en nombre de mots)}{40}{section*.231}
 \contentsline {paragraph}{}{40}{section*.232}
 \contentsline {paragraph}{}{40}{section*.233}
-\contentsline {paragraph}{}{40}{section*.234}
+\contentsline {paragraph}{}{41}{section*.234}
 \contentsline {paragraph}{}{41}{section*.235}
-\contentsline {subsection}{\numberline {4.4.4}Algorithme de construction}{41}{subsection.4.4.4}
 \contentsline {paragraph}{}{41}{section*.236}
-\contentsline {subsubsection}{Etape 1}{41}{section*.237}
-\contentsline {subsubsection}{Etape 2}{41}{section*.238}
-\contentsline {paragraph}{}{42}{section*.239}
+\contentsline {subsection}{\numberline {4.4.4}Algorithme de construction}{41}{subsection.4.4.4}
+\contentsline {paragraph}{}{41}{section*.237}
+\contentsline {subsubsection}{Etape 1}{41}{section*.238}
+\contentsline {subsubsection}{Etape 2}{42}{section*.239}
 \contentsline {paragraph}{}{42}{section*.240}
 \contentsline {paragraph}{}{42}{section*.241}
 \contentsline {paragraph}{}{42}{section*.242}
-\contentsline {subsubsection}{Etape 3}{42}{section*.243}
+\contentsline {paragraph}{}{42}{section*.243}
+\contentsline {subsubsection}{Etape 3}{42}{section*.244}
 \contentsline {chapter}{\numberline {5}Travail et r\IeC {\'e}alisation}{43}{chapter.5}
 \contentsline {section}{\numberline {5.1}Introduction}{43}{section.5.1}
-\contentsline {paragraph}{}{43}{section*.244}
 \contentsline {paragraph}{}{43}{section*.245}
 \contentsline {paragraph}{}{43}{section*.246}
 \contentsline {paragraph}{}{43}{section*.247}
-\contentsline {section}{\numberline {5.2}Outil utilis\IeC {\'e}s}{43}{section.5.2}
 \contentsline {paragraph}{}{43}{section*.248}
+\contentsline {section}{\numberline {5.2}Outils utilis\IeC {\'e}s}{43}{section.5.2}
 \contentsline {paragraph}{}{43}{section*.249}
 \contentsline {paragraph}{}{43}{section*.250}
+\contentsline {paragraph}{}{43}{section*.251}
 \contentsline {subsection}{\numberline {5.2.1}Le langage Java}{44}{subsection.5.2.1}
-\contentsline {paragraph}{}{44}{section*.251}
 \contentsline {paragraph}{}{44}{section*.252}
 \contentsline {paragraph}{}{44}{section*.253}
 \contentsline {paragraph}{}{44}{section*.254}
-\contentsline {subsection}{\numberline {5.2.2}L'API Jena}{44}{subsection.5.2.2}
 \contentsline {paragraph}{}{44}{section*.255}
+\contentsline {subsection}{\numberline {5.2.2}L'API Jena}{44}{subsection.5.2.2}
 \contentsline {paragraph}{}{44}{section*.256}
 \contentsline {paragraph}{}{44}{section*.257}
-\contentsline {subsection}{\numberline {5.2.3}L'outil de versionnage : Git}{44}{subsection.5.2.3}
 \contentsline {paragraph}{}{44}{section*.258}
-\contentsline {paragraph}{}{45}{section*.259}
-\contentsline {subsection}{\numberline {5.2.4}Le langage Python}{45}{subsection.5.2.4}
+\contentsline {subsection}{\numberline {5.2.3}L'outil de versionnage : Git}{44}{subsection.5.2.3}
+\contentsline {paragraph}{}{44}{section*.259}
 \contentsline {paragraph}{}{45}{section*.260}
+\contentsline {subsection}{\numberline {5.2.4}Le langage Python}{45}{subsection.5.2.4}
 \contentsline {paragraph}{}{45}{section*.261}
 \contentsline {paragraph}{}{45}{section*.262}
 \contentsline {paragraph}{}{45}{section*.263}
-\contentsline {subsection}{\numberline {5.2.5}L'\IeC {\'e}diteur d'ontologies Prot\IeC {\'e}g\IeC {\'e}}{45}{subsection.5.2.5}
 \contentsline {paragraph}{}{45}{section*.264}
+\contentsline {subsection}{\numberline {5.2.5}L'\IeC {\'e}diteur d'ontologies Prot\IeC {\'e}g\IeC {\'e}}{45}{subsection.5.2.5}
 \contentsline {paragraph}{}{45}{section*.265}
+\contentsline {paragraph}{}{45}{section*.266}
 \contentsline {subsection}{\numberline {5.2.6}L'environnement de d\IeC {\'e}veloppement Eclipse}{46}{subsection.5.2.6}
-\contentsline {paragraph}{}{46}{section*.266}
-\contentsline {subsection}{\numberline {5.2.7}Le langage de requ\IeC {\^e}tes SPARQL}{46}{subsection.5.2.7}
 \contentsline {paragraph}{}{46}{section*.267}
+\contentsline {subsection}{\numberline {5.2.7}Le langage de requ\IeC {\^e}tes SPARQL}{46}{subsection.5.2.7}
 \contentsline {paragraph}{}{46}{section*.268}
 \contentsline {paragraph}{}{46}{section*.269}
-\contentsline {subsection}{\numberline {5.2.8}La Gate 4.0}{46}{subsection.5.2.8}
-\contentsline {subsection}{\numberline {5.2.9}WordNet}{46}{subsection.5.2.9}
+\contentsline {paragraph}{}{46}{section*.270}
 \contentsline {section}{\numberline {5.3}Travail r\IeC {\'e}alis\IeC {\'e}}{46}{section.5.3}
 \contentsline {subsection}{\numberline {5.3.1}Nettoyage des documents}{46}{subsection.5.3.1}
-\contentsline {paragraph}{}{46}{section*.270}
 \contentsline {paragraph}{}{46}{section*.271}
-\contentsline {subsubsection}{Retrait de tous les chiffres}{46}{section*.272}
-\contentsline {subsubsection}{Retrait de la ponctuation et des espaces}{47}{section*.274}
-\contentsline {paragraph}{}{47}{section*.275}
-\contentsline {subsubsection}{Suppression des mots communs (Stop words)}{48}{section*.277}
-\contentsline {paragraph}{}{48}{section*.278}
+\contentsline {paragraph}{}{46}{section*.272}
+\contentsline {subsubsection}{Retrait de tous les chiffres}{46}{section*.273}
+\contentsline {subsubsection}{Retrait de la ponctuation et des espaces}{47}{section*.275}
+\contentsline {paragraph}{}{47}{section*.276}
+\contentsline {subsubsection}{Suppression des mots communs (Stop words)}{48}{section*.278}
 \contentsline {paragraph}{}{48}{section*.279}
 \contentsline {paragraph}{}{48}{section*.280}
 \contentsline {paragraph}{}{48}{section*.281}
-\contentsline {paragraph}{}{48}{section*.283}
-\contentsline {subsubsection}{Stemming}{48}{section*.285}
-\contentsline {paragraph}{}{49}{section*.286}
+\contentsline {paragraph}{}{48}{section*.282}
+\contentsline {paragraph}{}{48}{section*.284}
+\contentsline {subsubsection}{Stemming}{48}{section*.286}
 \contentsline {paragraph}{}{49}{section*.287}
-\contentsline {paragraph}{}{49}{section*.289}
+\contentsline {paragraph}{}{49}{section*.288}
+\contentsline {paragraph}{}{49}{section*.290}
 \contentsline {subsection}{\numberline {5.3.2}Outil de g\IeC {\'e}n\IeC {\'e}ration automatique des ontologies}{50}{subsection.5.3.2}
-\contentsline {paragraph}{}{50}{section*.290}
 \contentsline {paragraph}{}{50}{section*.291}
 \contentsline {paragraph}{}{50}{section*.292}
-\contentsline {paragraph}{}{50}{section*.294}
-\contentsline {paragraph}{}{51}{section*.295}
+\contentsline {paragraph}{}{50}{section*.293}
+\contentsline {paragraph}{}{50}{section*.295}
 \contentsline {paragraph}{}{51}{section*.296}
 \contentsline {paragraph}{}{51}{section*.297}
 \contentsline {paragraph}{}{51}{section*.298}
 \contentsline {paragraph}{}{51}{section*.299}
-\contentsline {subsection}{\numberline {5.3.3}Utilisation du framework \emph {Prot\IeC {\'e}g\IeC {\'e}}}{51}{subsection.5.3.3}
 \contentsline {paragraph}{}{51}{section*.300}
+\contentsline {subsection}{\numberline {5.3.3}Utilisation du framework \emph {Prot\IeC {\'e}g\IeC {\'e}}}{52}{subsection.5.3.3}
 \contentsline {paragraph}{}{52}{section*.301}
 \contentsline {paragraph}{}{52}{section*.302}
-\contentsline {subsubsection}{Ajout d'une relation d'\IeC {\'e}quivalence}{52}{section*.304}
-\contentsline {subsubsection}{Ajout d'une propri\IeC {\'e}t\IeC {\'e} \emph {InverseOf}}{53}{section*.306}
-\contentsline {paragraph}{}{53}{section*.310}
-\contentsline {subsection}{\numberline {5.3.4}Insurance : Moteur de recherche s\IeC {\'e}mantique pour les assurances}{54}{subsection.5.3.4}
-\contentsline {paragraph}{}{54}{section*.311}
+\contentsline {paragraph}{}{52}{section*.303}
+\contentsline {paragraph}{}{52}{section*.304}
+\contentsline {subsubsection}{Ajout d'une relation d'\IeC {\'e}quivalence}{53}{section*.306}
+\contentsline {subsubsection}{Ajout d'une propri\IeC {\'e}t\IeC {\'e} \emph {InverseOf}}{53}{section*.308}
 \contentsline {paragraph}{}{54}{section*.312}
+\contentsline {subsection}{\numberline {5.3.4}Insurance : Moteur de recherche s\IeC {\'e}mantique pour les assurances}{54}{subsection.5.3.4}
+\contentsline {paragraph}{}{54}{section*.313}
 \contentsline {paragraph}{}{54}{section*.314}
-\contentsline {paragraph}{}{55}{section*.315}
+\contentsline {paragraph}{}{54}{section*.316}
 \contentsline {paragraph}{}{55}{section*.317}
-\contentsline {paragraph}{}{55}{section*.318}
 \contentsline {paragraph}{}{55}{section*.319}
-\contentsline {subsubsection}{Recherche s\IeC {\'e}mantique des informations}{56}{section*.320}
-\contentsline {paragraph}{Remarque}{56}{section*.321}
-\contentsline {section}{\numberline {5.4}Conclusion}{56}{section.5.4}
+\contentsline {paragraph}{}{55}{section*.320}
+\contentsline {paragraph}{}{55}{section*.321}
 \contentsline {paragraph}{}{56}{section*.322}
-\contentsline {paragraph}{}{56}{section*.323}
+\contentsline {subsubsection}{Recherche s\IeC {\'e}mantique des informations}{56}{section*.323}
+\contentsline {paragraph}{Remarque}{56}{section*.324}
+\contentsline {section}{\numberline {5.4}Conclusion}{56}{section.5.4}
+\contentsline {paragraph}{}{56}{section*.325}
+\contentsline {paragraph}{}{56}{section*.326}
+\contentsline {paragraph}{}{57}{section*.328}
+\contentsline {paragraph}{}{57}{section*.329}
+\contentsline {paragraph}{}{57}{section*.330}
+\contentsline {paragraph}{}{57}{section*.331}
+\contentsline {paragraph}{}{57}{section*.332}
+\contentsline {paragraph}{}{58}{section*.333}
+\contentsline {paragraph}{}{58}{section*.334}
+\contentsline {paragraph}{}{58}{section*.335}
+\contentsline {paragraph}{}{58}{section*.336}
+\contentsline {paragraph}{}{58}{section*.337}
+\contentsline {paragraph}{}{58}{section*.338}
+\contentsline {paragraph}{}{59}{section*.339}
+\contentsline {paragraph}{}{59}{section*.340}
+\contentsline {paragraph}{}{59}{section*.341}
